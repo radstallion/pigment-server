@@ -1,0 +1,3159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'java' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData java
+8 silly fetchNamedPackageData java
+9 silly mapToRegistry name java
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'java',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'java',
+12 silly mapToRegistry   name: 'java',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/java
+14 verbose request uri https://registry.npmjs.org/java
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:50:03 AM
+17 verbose request id d190a4faf4bbfe44
+18 verbose etag W/"59cd767a-15030"
+19 verbose lastModified Thu, 28 Sep 2017 22:23:54 GMT
+20 http request GET https://registry.npmjs.org/java
+21 http 304 https://registry.npmjs.org/java
+22 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"59cd767a-15030"',
+22 verbose headers   age: '56',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1511304600.149071,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"59cd767a-15030"',
+23 silly get     age: '56',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin18026-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1511304600.149071,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/java from cache
+25 verbose get saving java to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\java\.cache.json
+26 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule java@0.9.0 checking installable status
+40 silly cache add args [ 'java', null ]
+41 verbose cache add spec java
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'java',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'java',
+42 silly cache add   name: 'java',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed java@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for java
+45 info addNameTag [ 'java', 'latest' ]
+46 silly mapToRegistry name java
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'java',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'java',
+49 silly mapToRegistry   name: 'java',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/java
+51 verbose addNameTag registry:https://registry.npmjs.org/java not in flight; fetching
+52 verbose get https://registry.npmjs.org/java not expired, no request
+53 silly addNameTag next cb for java with tag latest
+54 silly addNamed java@0.9.0
+55 verbose addNamed "0.9.0" is a plain semver version for java
+56 silly cache afterAdd java@0.9.0
+57 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\java\0.9.0\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\java\0.9.0\package\package.json written
+60 silly fetchNamedPackageData async
+61 silly mapToRegistry name async
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'async',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'async',
+64 silly mapToRegistry   name: 'async',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/async
+66 silly fetchNamedPackageData find-java-home
+67 silly mapToRegistry name find-java-home
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'find-java-home',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'find-java-home',
+70 silly mapToRegistry   name: 'find-java-home',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/find-java-home
+72 silly fetchNamedPackageData glob
+73 silly mapToRegistry name glob
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'glob',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'glob',
+76 silly mapToRegistry   name: 'glob',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/glob
+78 silly fetchNamedPackageData nan
+79 silly mapToRegistry name nan
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'nan',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'nan',
+82 silly mapToRegistry   name: 'nan',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/nan
+84 verbose request uri https://registry.npmjs.org/find-java-home
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 5:50:03 AM
+87 verbose etag W/"595d21cd-3c3c"
+88 verbose lastModified Wed, 05 Jul 2017 17:28:45 GMT
+89 http request GET https://registry.npmjs.org/find-java-home
+90 verbose request uri https://registry.npmjs.org/glob
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 5:50:03 AM
+93 verbose etag W/"5a0b0d69-2004f"
+94 verbose lastModified Tue, 14 Nov 2017 15:36:09 GMT
+95 http request GET https://registry.npmjs.org/glob
+96 verbose request uri https://registry.npmjs.org/async
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 5:50:03 AM
+99 verbose etag W/"5a13a362-2315d"
+100 verbose lastModified Tue, 21 Nov 2017 03:54:10 GMT
+101 http request GET https://registry.npmjs.org/async
+102 verbose request uri https://registry.npmjs.org/nan
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 5:50:03 AM
+105 verbose etag W/"5a0c2640-20c10"
+106 verbose lastModified Wed, 15 Nov 2017 11:34:24 GMT
+107 http request GET https://registry.npmjs.org/nan
+108 http 304 https://registry.npmjs.org/find-java-home
+109 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+109 verbose headers   via: '1.1 varnish',
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   etag: 'W/"595d21cd-3c3c"',
+109 verbose headers   age: '54',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+109 verbose headers   'x-cache': 'HIT',
+109 verbose headers   'x-cache-hits': '1',
+109 verbose headers   'x-timer': 'S1511304600.377815,VS0,VE0',
+109 verbose headers   vary: 'Accept-Encoding, Accept' }
+110 silly get cb [ 304,
+110 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+110 silly get     via: '1.1 varnish',
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     etag: 'W/"595d21cd-3c3c"',
+110 silly get     age: '54',
+110 silly get     connection: 'keep-alive',
+110 silly get     'x-served-by': 'cache-sin18026-SIN',
+110 silly get     'x-cache': 'HIT',
+110 silly get     'x-cache-hits': '1',
+110 silly get     'x-timer': 'S1511304600.377815,VS0,VE0',
+110 silly get     vary: 'Accept-Encoding, Accept' } ]
+111 verbose etag https://registry.npmjs.org/find-java-home from cache
+112 verbose get saving find-java-home to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\find-java-home\.cache.json
+113 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+114 silly resolveWithNewModule find-java-home@0.2.0 checking installable status
+115 silly cache add args [ 'find-java-home@0.2.0', null ]
+116 verbose cache add spec find-java-home@0.2.0
+117 silly cache add parsed spec Result {
+117 silly cache add   raw: 'find-java-home@0.2.0',
+117 silly cache add   scope: null,
+117 silly cache add   escapedName: 'find-java-home',
+117 silly cache add   name: 'find-java-home',
+117 silly cache add   rawSpec: '0.2.0',
+117 silly cache add   spec: '0.2.0',
+117 silly cache add   type: 'version' }
+118 silly addNamed find-java-home@0.2.0
+119 verbose addNamed "0.2.0" is a plain semver version for find-java-home
+120 silly mapToRegistry name find-java-home
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry data Result {
+123 silly mapToRegistry   raw: 'find-java-home',
+123 silly mapToRegistry   scope: null,
+123 silly mapToRegistry   escapedName: 'find-java-home',
+123 silly mapToRegistry   name: 'find-java-home',
+123 silly mapToRegistry   rawSpec: '',
+123 silly mapToRegistry   spec: 'latest',
+123 silly mapToRegistry   type: 'tag' }
+124 silly mapToRegistry uri https://registry.npmjs.org/find-java-home
+125 verbose addNameVersion registry:https://registry.npmjs.org/find-java-home not in flight; fetching
+126 verbose get https://registry.npmjs.org/find-java-home not expired, no request
+127 silly cache afterAdd find-java-home@0.2.0
+128 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\find-java-home\0.2.0\package\package.json not in flight; writing
+129 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+130 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\find-java-home\0.2.0\package\package.json written
+131 http 304 https://registry.npmjs.org/nan
+132 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+132 verbose headers   via: '1.1 varnish',
+132 verbose headers   'cache-control': 'max-age=300',
+132 verbose headers   etag: 'W/"5a0c2640-20c10"',
+132 verbose headers   age: '256',
+132 verbose headers   connection: 'keep-alive',
+132 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+132 verbose headers   'x-cache': 'HIT',
+132 verbose headers   'x-cache-hits': '153',
+132 verbose headers   'x-timer': 'S1511304600.457478,VS0,VE0',
+132 verbose headers   vary: 'Accept-Encoding, Accept' }
+133 silly get cb [ 304,
+133 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+133 silly get     via: '1.1 varnish',
+133 silly get     'cache-control': 'max-age=300',
+133 silly get     etag: 'W/"5a0c2640-20c10"',
+133 silly get     age: '256',
+133 silly get     connection: 'keep-alive',
+133 silly get     'x-served-by': 'cache-sin18025-SIN',
+133 silly get     'x-cache': 'HIT',
+133 silly get     'x-cache-hits': '153',
+133 silly get     'x-timer': 'S1511304600.457478,VS0,VE0',
+133 silly get     vary: 'Accept-Encoding, Accept' } ]
+134 verbose etag https://registry.npmjs.org/nan from cache
+135 verbose get saving nan to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+136 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+137 http 304 https://registry.npmjs.org/async
+138 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+138 verbose headers   via: '1.1 varnish',
+138 verbose headers   'cache-control': 'max-age=300',
+138 verbose headers   etag: 'W/"5a13a362-2315d"',
+138 verbose headers   age: '111',
+138 verbose headers   connection: 'keep-alive',
+138 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+138 verbose headers   'x-cache': 'HIT',
+138 verbose headers   'x-cache-hits': '1',
+138 verbose headers   'x-timer': 'S1511304600.461232,VS0,VE0',
+138 verbose headers   vary: 'Accept-Encoding, Accept' }
+139 silly get cb [ 304,
+139 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+139 silly get     via: '1.1 varnish',
+139 silly get     'cache-control': 'max-age=300',
+139 silly get     etag: 'W/"5a13a362-2315d"',
+139 silly get     age: '111',
+139 silly get     connection: 'keep-alive',
+139 silly get     'x-served-by': 'cache-sin18023-SIN',
+139 silly get     'x-cache': 'HIT',
+139 silly get     'x-cache-hits': '1',
+139 silly get     'x-timer': 'S1511304600.461232,VS0,VE0',
+139 silly get     vary: 'Accept-Encoding, Accept' } ]
+140 verbose etag https://registry.npmjs.org/async from cache
+141 verbose get saving async to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\async\.cache.json
+142 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+143 http 304 https://registry.npmjs.org/glob
+144 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+144 verbose headers   via: '1.1 varnish',
+144 verbose headers   'cache-control': 'max-age=300',
+144 verbose headers   etag: 'W/"5a0b0d69-2004f"',
+144 verbose headers   age: '66',
+144 verbose headers   connection: 'keep-alive',
+144 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+144 verbose headers   'x-cache': 'HIT',
+144 verbose headers   'x-cache-hits': '2',
+144 verbose headers   'x-timer': 'S1511304600.461332,VS0,VE0',
+144 verbose headers   vary: 'Accept-Encoding, Accept' }
+145 silly get cb [ 304,
+145 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+145 silly get     via: '1.1 varnish',
+145 silly get     'cache-control': 'max-age=300',
+145 silly get     etag: 'W/"5a0b0d69-2004f"',
+145 silly get     age: '66',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-served-by': 'cache-sin18020-SIN',
+145 silly get     'x-cache': 'HIT',
+145 silly get     'x-cache-hits': '2',
+145 silly get     'x-timer': 'S1511304600.461332,VS0,VE0',
+145 silly get     vary: 'Accept-Encoding, Accept' } ]
+146 verbose etag https://registry.npmjs.org/glob from cache
+147 verbose get saving glob to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\glob\.cache.json
+148 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+149 silly resolveWithNewModule nan@2.7.0 checking installable status
+150 silly cache add args [ 'nan@2.7.0', null ]
+151 verbose cache add spec nan@2.7.0
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'nan@2.7.0',
+152 silly cache add   scope: null,
+152 silly cache add   escapedName: 'nan',
+152 silly cache add   name: 'nan',
+152 silly cache add   rawSpec: '2.7.0',
+152 silly cache add   spec: '2.7.0',
+152 silly cache add   type: 'version' }
+153 silly addNamed nan@2.7.0
+154 verbose addNamed "2.7.0" is a plain semver version for nan
+155 silly mapToRegistry name nan
+156 silly mapToRegistry using default registry
+157 silly mapToRegistry registry https://registry.npmjs.org/
+158 silly mapToRegistry data Result {
+158 silly mapToRegistry   raw: 'nan',
+158 silly mapToRegistry   scope: null,
+158 silly mapToRegistry   escapedName: 'nan',
+158 silly mapToRegistry   name: 'nan',
+158 silly mapToRegistry   rawSpec: '',
+158 silly mapToRegistry   spec: 'latest',
+158 silly mapToRegistry   type: 'tag' }
+159 silly mapToRegistry uri https://registry.npmjs.org/nan
+160 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+161 verbose get https://registry.npmjs.org/nan not expired, no request
+162 silly resolveWithNewModule async@2.5.0 checking installable status
+163 silly cache add args [ 'async@2.5.0', null ]
+164 verbose cache add spec async@2.5.0
+165 silly cache add parsed spec Result {
+165 silly cache add   raw: 'async@2.5.0',
+165 silly cache add   scope: null,
+165 silly cache add   escapedName: 'async',
+165 silly cache add   name: 'async',
+165 silly cache add   rawSpec: '2.5.0',
+165 silly cache add   spec: '2.5.0',
+165 silly cache add   type: 'version' }
+166 silly addNamed async@2.5.0
+167 verbose addNamed "2.5.0" is a plain semver version for async
+168 silly mapToRegistry name async
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'async',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   escapedName: 'async',
+171 silly mapToRegistry   name: 'async',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npmjs.org/async
+173 verbose addNameVersion registry:https://registry.npmjs.org/async not in flight; fetching
+174 silly resolveWithNewModule glob@7.1.2 checking installable status
+175 silly cache add args [ 'glob@7.1.2', null ]
+176 verbose cache add spec glob@7.1.2
+177 silly cache add parsed spec Result {
+177 silly cache add   raw: 'glob@7.1.2',
+177 silly cache add   scope: null,
+177 silly cache add   escapedName: 'glob',
+177 silly cache add   name: 'glob',
+177 silly cache add   rawSpec: '7.1.2',
+177 silly cache add   spec: '7.1.2',
+177 silly cache add   type: 'version' }
+178 silly addNamed glob@7.1.2
+179 verbose addNamed "7.1.2" is a plain semver version for glob
+180 silly mapToRegistry name glob
+181 silly mapToRegistry using default registry
+182 silly mapToRegistry registry https://registry.npmjs.org/
+183 silly mapToRegistry data Result {
+183 silly mapToRegistry   raw: 'glob',
+183 silly mapToRegistry   scope: null,
+183 silly mapToRegistry   escapedName: 'glob',
+183 silly mapToRegistry   name: 'glob',
+183 silly mapToRegistry   rawSpec: '',
+183 silly mapToRegistry   spec: 'latest',
+183 silly mapToRegistry   type: 'tag' }
+184 silly mapToRegistry uri https://registry.npmjs.org/glob
+185 verbose addNameVersion registry:https://registry.npmjs.org/glob not in flight; fetching
+186 silly cache afterAdd nan@2.7.0
+187 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\nan\2.7.0\package\package.json not in flight; writing
+188 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+189 verbose get https://registry.npmjs.org/async not expired, no request
+190 verbose get https://registry.npmjs.org/glob not expired, no request
+191 silly cache afterAdd async@2.5.0
+192 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\async\2.5.0\package\package.json not in flight; writing
+193 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+194 silly cache afterAdd glob@7.1.2
+195 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\glob\7.1.2\package\package.json not in flight; writing
+196 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\nan\2.7.0\package\package.json written
+198 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\async\2.5.0\package\package.json written
+199 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\glob\7.1.2\package\package.json written
+200 silly fetchNamedPackageData which
+201 silly mapToRegistry name which
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'which',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   escapedName: 'which',
+204 silly mapToRegistry   name: 'which',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/which
+206 silly fetchNamedPackageData winreg
+207 silly mapToRegistry name winreg
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry data Result {
+210 silly mapToRegistry   raw: 'winreg',
+210 silly mapToRegistry   scope: null,
+210 silly mapToRegistry   escapedName: 'winreg',
+210 silly mapToRegistry   name: 'winreg',
+210 silly mapToRegistry   rawSpec: '',
+210 silly mapToRegistry   spec: 'latest',
+210 silly mapToRegistry   type: 'tag' }
+211 silly mapToRegistry uri https://registry.npmjs.org/winreg
+212 verbose request uri https://registry.npmjs.org/which
+213 verbose request no auth needed
+214 info attempt registry request try #1 at 5:50:03 AM
+215 verbose etag W/"598e0c95-801d"
+216 verbose lastModified Fri, 11 Aug 2017 19:59:17 GMT
+217 http request GET https://registry.npmjs.org/which
+218 verbose request uri https://registry.npmjs.org/winreg
+219 verbose request no auth needed
+220 info attempt registry request try #1 at 5:50:03 AM
+221 verbose etag W/"59fcd360-8e64"
+222 verbose lastModified Fri, 03 Nov 2017 20:36:48 GMT
+223 http request GET https://registry.npmjs.org/winreg
+224 http 304 https://registry.npmjs.org/which
+225 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   'cache-control': 'max-age=300',
+225 verbose headers   etag: 'W/"598e0c95-801d"',
+225 verbose headers   age: '176',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1511304601.560875,VS0,VE1',
+225 verbose headers   vary: 'Accept-Encoding, Accept' }
+226 silly get cb [ 304,
+226 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     etag: 'W/"598e0c95-801d"',
+226 silly get     age: '176',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-sin18026-SIN',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1511304601.560875,VS0,VE1',
+226 silly get     vary: 'Accept-Encoding, Accept' } ]
+227 verbose etag https://registry.npmjs.org/which from cache
+228 verbose get saving which to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\which\.cache.json
+229 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+230 http 304 https://registry.npmjs.org/winreg
+231 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+231 verbose headers   via: '1.1 varnish',
+231 verbose headers   'cache-control': 'max-age=300',
+231 verbose headers   etag: 'W/"59fcd360-8e64"',
+231 verbose headers   age: '54',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+231 verbose headers   'x-cache': 'HIT',
+231 verbose headers   'x-cache-hits': '1',
+231 verbose headers   'x-timer': 'S1511304601.564904,VS0,VE0',
+231 verbose headers   vary: 'Accept-Encoding, Accept' }
+232 silly get cb [ 304,
+232 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+232 silly get     via: '1.1 varnish',
+232 silly get     'cache-control': 'max-age=300',
+232 silly get     etag: 'W/"59fcd360-8e64"',
+232 silly get     age: '54',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-served-by': 'cache-sin18025-SIN',
+232 silly get     'x-cache': 'HIT',
+232 silly get     'x-cache-hits': '1',
+232 silly get     'x-timer': 'S1511304601.564904,VS0,VE0',
+232 silly get     vary: 'Accept-Encoding, Accept' } ]
+233 verbose etag https://registry.npmjs.org/winreg from cache
+234 verbose get saving winreg to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\winreg\.cache.json
+235 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+236 silly resolveWithNewModule which@1.0.9 checking installable status
+237 silly cache add args [ 'which@~1.0.5', null ]
+238 verbose cache add spec which@~1.0.5
+239 silly cache add parsed spec Result {
+239 silly cache add   raw: 'which@~1.0.5',
+239 silly cache add   scope: null,
+239 silly cache add   escapedName: 'which',
+239 silly cache add   name: 'which',
+239 silly cache add   rawSpec: '~1.0.5',
+239 silly cache add   spec: '>=1.0.5 <1.1.0',
+239 silly cache add   type: 'range' }
+240 silly addNamed which@>=1.0.5 <1.1.0
+241 verbose addNamed ">=1.0.5 <1.1.0" is a valid semver range for which
+242 silly addNameRange { name: 'which', range: '>=1.0.5 <1.1.0', hasData: false }
+243 silly mapToRegistry name which
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'which',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   escapedName: 'which',
+246 silly mapToRegistry   name: 'which',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/which
+248 verbose addNameRange registry:https://registry.npmjs.org/which not in flight; fetching
+249 silly resolveWithNewModule winreg@1.2.4 checking installable status
+250 silly cache add args [ 'winreg@~1.2.2', null ]
+251 verbose cache add spec winreg@~1.2.2
+252 silly cache add parsed spec Result {
+252 silly cache add   raw: 'winreg@~1.2.2',
+252 silly cache add   scope: null,
+252 silly cache add   escapedName: 'winreg',
+252 silly cache add   name: 'winreg',
+252 silly cache add   rawSpec: '~1.2.2',
+252 silly cache add   spec: '>=1.2.2 <1.3.0',
+252 silly cache add   type: 'range' }
+253 silly addNamed winreg@>=1.2.2 <1.3.0
+254 verbose addNamed ">=1.2.2 <1.3.0" is a valid semver range for winreg
+255 silly addNameRange { name: 'winreg', range: '>=1.2.2 <1.3.0', hasData: false }
+256 silly mapToRegistry name winreg
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry data Result {
+259 silly mapToRegistry   raw: 'winreg',
+259 silly mapToRegistry   scope: null,
+259 silly mapToRegistry   escapedName: 'winreg',
+259 silly mapToRegistry   name: 'winreg',
+259 silly mapToRegistry   rawSpec: '',
+259 silly mapToRegistry   spec: 'latest',
+259 silly mapToRegistry   type: 'tag' }
+260 silly mapToRegistry uri https://registry.npmjs.org/winreg
+261 verbose addNameRange registry:https://registry.npmjs.org/winreg not in flight; fetching
+262 verbose get https://registry.npmjs.org/which not expired, no request
+263 silly addNameRange number 2 { name: 'which', range: '>=1.0.5 <1.1.0', hasData: true }
+264 silly addNameRange versions [ 'which',
+264 silly addNameRange   [ '1.0.0',
+264 silly addNameRange     '1.0.1',
+264 silly addNameRange     '1.0.2',
+264 silly addNameRange     '1.0.3',
+264 silly addNameRange     '1.0.5',
+264 silly addNameRange     '1.0.6',
+264 silly addNameRange     '1.0.7',
+264 silly addNameRange     '1.0.8',
+264 silly addNameRange     '1.0.9',
+264 silly addNameRange     '1.1.0',
+264 silly addNameRange     '1.1.1',
+264 silly addNameRange     '1.1.2',
+264 silly addNameRange     '1.2.0',
+264 silly addNameRange     '1.2.1',
+264 silly addNameRange     '1.2.4',
+264 silly addNameRange     '1.2.5',
+264 silly addNameRange     '1.2.6',
+264 silly addNameRange     '1.2.7',
+264 silly addNameRange     '1.2.8',
+264 silly addNameRange     '1.2.9',
+264 silly addNameRange     '1.2.10',
+264 silly addNameRange     '1.2.11',
+264 silly addNameRange     '1.2.12',
+264 silly addNameRange     '1.2.13',
+264 silly addNameRange     '1.2.14',
+264 silly addNameRange     '1.3.0' ] ]
+265 silly addNamed which@1.0.9
+266 verbose addNamed "1.0.9" is a plain semver version for which
+267 verbose get https://registry.npmjs.org/winreg not expired, no request
+268 silly addNameRange number 2 { name: 'winreg', range: '>=1.2.2 <1.3.0', hasData: true }
+269 silly addNameRange versions [ 'winreg',
+269 silly addNameRange   [ '0.0.1',
+269 silly addNameRange     '0.0.2',
+269 silly addNameRange     '0.0.3',
+269 silly addNameRange     '0.0.4',
+269 silly addNameRange     '0.0.5',
+269 silly addNameRange     '0.0.6',
+269 silly addNameRange     '0.0.7',
+269 silly addNameRange     '0.0.8',
+269 silly addNameRange     '0.0.9',
+269 silly addNameRange     '0.0.10',
+269 silly addNameRange     '0.0.11',
+269 silly addNameRange     '0.0.12',
+269 silly addNameRange     '0.0.13',
+269 silly addNameRange     '0.0.14',
+269 silly addNameRange     '0.0.15',
+269 silly addNameRange     '0.0.16',
+269 silly addNameRange     '0.0.17',
+269 silly addNameRange     '0.0.18',
+269 silly addNameRange     '1.0.0',
+269 silly addNameRange     '1.0.1',
+269 silly addNameRange     '1.1.0',
+269 silly addNameRange     '1.1.1',
+269 silly addNameRange     '1.2.0',
+269 silly addNameRange     '1.2.1',
+269 silly addNameRange     '1.2.2',
+269 silly addNameRange     '1.2.3',
+269 silly addNameRange     '1.2.4' ] ]
+270 silly addNamed winreg@1.2.4
+271 verbose addNamed "1.2.4" is a plain semver version for winreg
+272 silly cache afterAdd which@1.0.9
+273 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\which\1.0.9\package\package.json not in flight; writing
+274 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+275 silly cache afterAdd winreg@1.2.4
+276 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\winreg\1.2.4\package\package.json not in flight; writing
+277 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+278 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\which\1.0.9\package\package.json written
+279 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\winreg\1.2.4\package\package.json written
+280 silly fetchNamedPackageData fs.realpath
+281 silly mapToRegistry name fs.realpath
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry https://registry.npmjs.org/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'fs.realpath',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   escapedName: 'fs.realpath',
+284 silly mapToRegistry   name: 'fs.realpath',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag' }
+285 silly mapToRegistry uri https://registry.npmjs.org/fs.realpath
+286 silly fetchNamedPackageData inflight
+287 silly mapToRegistry name inflight
+288 silly mapToRegistry using default registry
+289 silly mapToRegistry registry https://registry.npmjs.org/
+290 silly mapToRegistry data Result {
+290 silly mapToRegistry   raw: 'inflight',
+290 silly mapToRegistry   scope: null,
+290 silly mapToRegistry   escapedName: 'inflight',
+290 silly mapToRegistry   name: 'inflight',
+290 silly mapToRegistry   rawSpec: '',
+290 silly mapToRegistry   spec: 'latest',
+290 silly mapToRegistry   type: 'tag' }
+291 silly mapToRegistry uri https://registry.npmjs.org/inflight
+292 silly fetchNamedPackageData minimatch
+293 silly mapToRegistry name minimatch
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: 'minimatch',
+296 silly mapToRegistry   scope: null,
+296 silly mapToRegistry   escapedName: 'minimatch',
+296 silly mapToRegistry   name: 'minimatch',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag' }
+297 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+298 silly fetchNamedPackageData path-is-absolute
+299 silly mapToRegistry name path-is-absolute
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry data Result {
+302 silly mapToRegistry   raw: 'path-is-absolute',
+302 silly mapToRegistry   scope: null,
+302 silly mapToRegistry   escapedName: 'path-is-absolute',
+302 silly mapToRegistry   name: 'path-is-absolute',
+302 silly mapToRegistry   rawSpec: '',
+302 silly mapToRegistry   spec: 'latest',
+302 silly mapToRegistry   type: 'tag' }
+303 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+304 verbose request uri https://registry.npmjs.org/fs.realpath
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 5:50:03 AM
+307 verbose etag W/"5818d000-107b"
+308 verbose lastModified Tue, 01 Nov 2016 17:25:20 GMT
+309 http request GET https://registry.npmjs.org/fs.realpath
+310 verbose request uri https://registry.npmjs.org/inflight
+311 verbose request no auth needed
+312 info attempt registry request try #1 at 5:50:03 AM
+313 verbose etag W/"59e14329-25b8"
+314 verbose lastModified Fri, 13 Oct 2017 22:50:17 GMT
+315 http request GET https://registry.npmjs.org/inflight
+316 verbose request uri https://registry.npmjs.org/path-is-absolute
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 5:50:03 AM
+319 verbose etag W/"58e77292-133a"
+320 verbose lastModified Fri, 07 Apr 2017 11:05:54 GMT
+321 http request GET https://registry.npmjs.org/path-is-absolute
+322 verbose request uri https://registry.npmjs.org/minimatch
+323 verbose request no auth needed
+324 info attempt registry request try #1 at 5:50:03 AM
+325 verbose etag W/"5a00d52a-d230"
+326 verbose lastModified Mon, 06 Nov 2017 21:33:30 GMT
+327 http request GET https://registry.npmjs.org/minimatch
+328 http 304 https://registry.npmjs.org/fs.realpath
+329 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+329 verbose headers   via: '1.1 varnish',
+329 verbose headers   'cache-control': 'max-age=300',
+329 verbose headers   etag: 'W/"5818d000-107b"',
+329 verbose headers   age: '45',
+329 verbose headers   connection: 'keep-alive',
+329 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+329 verbose headers   'x-cache': 'HIT',
+329 verbose headers   'x-cache-hits': '1',
+329 verbose headers   'x-timer': 'S1511304601.676639,VS0,VE0',
+329 verbose headers   vary: 'Accept-Encoding, Accept' }
+330 silly get cb [ 304,
+330 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+330 silly get     via: '1.1 varnish',
+330 silly get     'cache-control': 'max-age=300',
+330 silly get     etag: 'W/"5818d000-107b"',
+330 silly get     age: '45',
+330 silly get     connection: 'keep-alive',
+330 silly get     'x-served-by': 'cache-sin18023-SIN',
+330 silly get     'x-cache': 'HIT',
+330 silly get     'x-cache-hits': '1',
+330 silly get     'x-timer': 'S1511304601.676639,VS0,VE0',
+330 silly get     vary: 'Accept-Encoding, Accept' } ]
+331 verbose etag https://registry.npmjs.org/fs.realpath from cache
+332 verbose get saving fs.realpath to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\fs.realpath\.cache.json
+333 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+334 http 304 https://registry.npmjs.org/minimatch
+335 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+335 verbose headers   via: '1.1 varnish',
+335 verbose headers   'cache-control': 'max-age=300',
+335 verbose headers   etag: 'W/"5a00d52a-d230"',
+335 verbose headers   age: '235',
+335 verbose headers   connection: 'keep-alive',
+335 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+335 verbose headers   'x-cache': 'HIT',
+335 verbose headers   'x-cache-hits': '3',
+335 verbose headers   'x-timer': 'S1511304601.679400,VS0,VE0',
+335 verbose headers   vary: 'Accept-Encoding, Accept' }
+336 silly get cb [ 304,
+336 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+336 silly get     via: '1.1 varnish',
+336 silly get     'cache-control': 'max-age=300',
+336 silly get     etag: 'W/"5a00d52a-d230"',
+336 silly get     age: '235',
+336 silly get     connection: 'keep-alive',
+336 silly get     'x-served-by': 'cache-sin18025-SIN',
+336 silly get     'x-cache': 'HIT',
+336 silly get     'x-cache-hits': '3',
+336 silly get     'x-timer': 'S1511304601.679400,VS0,VE0',
+336 silly get     vary: 'Accept-Encoding, Accept' } ]
+337 verbose etag https://registry.npmjs.org/minimatch from cache
+338 verbose get saving minimatch to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\minimatch\.cache.json
+339 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+340 http 304 https://registry.npmjs.org/path-is-absolute
+341 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+341 verbose headers   via: '1.1 varnish',
+341 verbose headers   'cache-control': 'max-age=300',
+341 verbose headers   etag: 'W/"58e77292-133a"',
+341 verbose headers   age: '288',
+341 verbose headers   connection: 'keep-alive',
+341 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+341 verbose headers   'x-cache': 'HIT',
+341 verbose headers   'x-cache-hits': '2',
+341 verbose headers   'x-timer': 'S1511304601.679256,VS0,VE0',
+341 verbose headers   vary: 'Accept-Encoding, Accept' }
+342 silly get cb [ 304,
+342 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+342 silly get     via: '1.1 varnish',
+342 silly get     'cache-control': 'max-age=300',
+342 silly get     etag: 'W/"58e77292-133a"',
+342 silly get     age: '288',
+342 silly get     connection: 'keep-alive',
+342 silly get     'x-served-by': 'cache-sin18026-SIN',
+342 silly get     'x-cache': 'HIT',
+342 silly get     'x-cache-hits': '2',
+342 silly get     'x-timer': 'S1511304601.679256,VS0,VE0',
+342 silly get     vary: 'Accept-Encoding, Accept' } ]
+343 verbose etag https://registry.npmjs.org/path-is-absolute from cache
+344 verbose get saving path-is-absolute to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\path-is-absolute\.cache.json
+345 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+346 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+347 silly cache add args [ 'fs.realpath@^1.0.0', null ]
+348 verbose cache add spec fs.realpath@^1.0.0
+349 silly cache add parsed spec Result {
+349 silly cache add   raw: 'fs.realpath@^1.0.0',
+349 silly cache add   scope: null,
+349 silly cache add   escapedName: 'fs.realpath',
+349 silly cache add   name: 'fs.realpath',
+349 silly cache add   rawSpec: '^1.0.0',
+349 silly cache add   spec: '>=1.0.0 <2.0.0',
+349 silly cache add   type: 'range' }
+350 silly addNamed fs.realpath@>=1.0.0 <2.0.0
+351 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for fs.realpath
+352 silly addNameRange { name: 'fs.realpath', range: '>=1.0.0 <2.0.0', hasData: false }
+353 silly mapToRegistry name fs.realpath
+354 silly mapToRegistry using default registry
+355 silly mapToRegistry registry https://registry.npmjs.org/
+356 silly mapToRegistry data Result {
+356 silly mapToRegistry   raw: 'fs.realpath',
+356 silly mapToRegistry   scope: null,
+356 silly mapToRegistry   escapedName: 'fs.realpath',
+356 silly mapToRegistry   name: 'fs.realpath',
+356 silly mapToRegistry   rawSpec: '',
+356 silly mapToRegistry   spec: 'latest',
+356 silly mapToRegistry   type: 'tag' }
+357 silly mapToRegistry uri https://registry.npmjs.org/fs.realpath
+358 verbose addNameRange registry:https://registry.npmjs.org/fs.realpath not in flight; fetching
+359 http 304 https://registry.npmjs.org/inflight
+360 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+360 verbose headers   via: '1.1 varnish',
+360 verbose headers   'cache-control': 'max-age=300',
+360 verbose headers   etag: 'W/"59e14329-25b8"',
+360 verbose headers   age: '265',
+360 verbose headers   connection: 'keep-alive',
+360 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+360 verbose headers   'x-cache': 'HIT',
+360 verbose headers   'x-cache-hits': '5',
+360 verbose headers   'x-timer': 'S1511304601.680830,VS0,VE0',
+360 verbose headers   vary: 'Accept-Encoding, Accept' }
+361 silly get cb [ 304,
+361 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+361 silly get     via: '1.1 varnish',
+361 silly get     'cache-control': 'max-age=300',
+361 silly get     etag: 'W/"59e14329-25b8"',
+361 silly get     age: '265',
+361 silly get     connection: 'keep-alive',
+361 silly get     'x-served-by': 'cache-sin18020-SIN',
+361 silly get     'x-cache': 'HIT',
+361 silly get     'x-cache-hits': '5',
+361 silly get     'x-timer': 'S1511304601.680830,VS0,VE0',
+361 silly get     vary: 'Accept-Encoding, Accept' } ]
+362 verbose etag https://registry.npmjs.org/inflight from cache
+363 verbose get saving inflight to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\inflight\.cache.json
+364 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+365 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+366 silly cache add args [ 'minimatch@^3.0.4', null ]
+367 verbose cache add spec minimatch@^3.0.4
+368 silly cache add parsed spec Result {
+368 silly cache add   raw: 'minimatch@^3.0.4',
+368 silly cache add   scope: null,
+368 silly cache add   escapedName: 'minimatch',
+368 silly cache add   name: 'minimatch',
+368 silly cache add   rawSpec: '^3.0.4',
+368 silly cache add   spec: '>=3.0.4 <4.0.0',
+368 silly cache add   type: 'range' }
+369 silly addNamed minimatch@>=3.0.4 <4.0.0
+370 verbose addNamed ">=3.0.4 <4.0.0" is a valid semver range for minimatch
+371 silly addNameRange { name: 'minimatch', range: '>=3.0.4 <4.0.0', hasData: false }
+372 silly mapToRegistry name minimatch
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data Result {
+375 silly mapToRegistry   raw: 'minimatch',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   escapedName: 'minimatch',
+375 silly mapToRegistry   name: 'minimatch',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+377 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+378 verbose get https://registry.npmjs.org/fs.realpath not expired, no request
+379 silly addNameRange number 2 { name: 'fs.realpath', range: '>=1.0.0 <2.0.0', hasData: true }
+380 silly addNameRange versions [ 'fs.realpath', [ '0.0.0', '1.0.0' ] ]
+381 silly addNamed fs.realpath@1.0.0
+382 verbose addNamed "1.0.0" is a plain semver version for fs.realpath
+383 verbose get https://registry.npmjs.org/minimatch not expired, no request
+384 silly addNameRange number 2 { name: 'minimatch', range: '>=3.0.4 <4.0.0', hasData: true }
+385 silly addNameRange versions [ 'minimatch',
+385 silly addNameRange   [ '0.0.1',
+385 silly addNameRange     '0.0.2',
+385 silly addNameRange     '0.0.4',
+385 silly addNameRange     '0.0.5',
+385 silly addNameRange     '0.1.1',
+385 silly addNameRange     '0.1.2',
+385 silly addNameRange     '0.1.3',
+385 silly addNameRange     '0.1.4',
+385 silly addNameRange     '0.1.5',
+385 silly addNameRange     '0.2.0',
+385 silly addNameRange     '0.2.2',
+385 silly addNameRange     '0.2.3',
+385 silly addNameRange     '0.2.4',
+385 silly addNameRange     '0.2.5',
+385 silly addNameRange     '0.2.6',
+385 silly addNameRange     '0.2.7',
+385 silly addNameRange     '0.2.8',
+385 silly addNameRange     '0.2.9',
+385 silly addNameRange     '0.2.10',
+385 silly addNameRange     '0.2.11',
+385 silly addNameRange     '0.2.12',
+385 silly addNameRange     '0.2.13',
+385 silly addNameRange     '0.2.14',
+385 silly addNameRange     '0.3.0',
+385 silly addNameRange     '0.4.0',
+385 silly addNameRange     '1.0.0',
+385 silly addNameRange     '2.0.0',
+385 silly addNameRange     '2.0.1',
+385 silly addNameRange     '2.0.2',
+385 silly addNameRange     '2.0.3',
+385 silly addNameRange     '2.0.4',
+385 silly addNameRange     '2.0.5',
+385 silly addNameRange     '2.0.6',
+385 silly addNameRange     '2.0.7',
+385 silly addNameRange     '2.0.8',
+385 silly addNameRange     '2.0.9',
+385 silly addNameRange     '2.0.10',
+385 silly addNameRange     '3.0.0',
+385 silly addNameRange     '3.0.2',
+385 silly addNameRange     '3.0.3',
+385 silly addNameRange     '3.0.4' ] ]
+386 silly addNamed minimatch@3.0.4
+387 verbose addNamed "3.0.4" is a plain semver version for minimatch
+388 silly cache afterAdd fs.realpath@1.0.0
+389 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\fs.realpath\1.0.0\package\package.json not in flight; writing
+390 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+391 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+392 silly cache add args [ 'path-is-absolute@^1.0.0', null ]
+393 verbose cache add spec path-is-absolute@^1.0.0
+394 silly cache add parsed spec Result {
+394 silly cache add   raw: 'path-is-absolute@^1.0.0',
+394 silly cache add   scope: null,
+394 silly cache add   escapedName: 'path-is-absolute',
+394 silly cache add   name: 'path-is-absolute',
+394 silly cache add   rawSpec: '^1.0.0',
+394 silly cache add   spec: '>=1.0.0 <2.0.0',
+394 silly cache add   type: 'range' }
+395 silly addNamed path-is-absolute@>=1.0.0 <2.0.0
+396 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-is-absolute
+397 silly addNameRange { name: 'path-is-absolute',
+397 silly addNameRange   range: '>=1.0.0 <2.0.0',
+397 silly addNameRange   hasData: false }
+398 silly mapToRegistry name path-is-absolute
+399 silly mapToRegistry using default registry
+400 silly mapToRegistry registry https://registry.npmjs.org/
+401 silly mapToRegistry data Result {
+401 silly mapToRegistry   raw: 'path-is-absolute',
+401 silly mapToRegistry   scope: null,
+401 silly mapToRegistry   escapedName: 'path-is-absolute',
+401 silly mapToRegistry   name: 'path-is-absolute',
+401 silly mapToRegistry   rawSpec: '',
+401 silly mapToRegistry   spec: 'latest',
+401 silly mapToRegistry   type: 'tag' }
+402 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+403 verbose addNameRange registry:https://registry.npmjs.org/path-is-absolute not in flight; fetching
+404 silly resolveWithNewModule inflight@1.0.6 checking installable status
+405 silly cache add args [ 'inflight@^1.0.4', null ]
+406 verbose cache add spec inflight@^1.0.4
+407 silly cache add parsed spec Result {
+407 silly cache add   raw: 'inflight@^1.0.4',
+407 silly cache add   scope: null,
+407 silly cache add   escapedName: 'inflight',
+407 silly cache add   name: 'inflight',
+407 silly cache add   rawSpec: '^1.0.4',
+407 silly cache add   spec: '>=1.0.4 <2.0.0',
+407 silly cache add   type: 'range' }
+408 silly addNamed inflight@>=1.0.4 <2.0.0
+409 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for inflight
+410 silly addNameRange { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: false }
+411 silly mapToRegistry name inflight
+412 silly mapToRegistry using default registry
+413 silly mapToRegistry registry https://registry.npmjs.org/
+414 silly mapToRegistry data Result {
+414 silly mapToRegistry   raw: 'inflight',
+414 silly mapToRegistry   scope: null,
+414 silly mapToRegistry   escapedName: 'inflight',
+414 silly mapToRegistry   name: 'inflight',
+414 silly mapToRegistry   rawSpec: '',
+414 silly mapToRegistry   spec: 'latest',
+414 silly mapToRegistry   type: 'tag' }
+415 silly mapToRegistry uri https://registry.npmjs.org/inflight
+416 verbose addNameRange registry:https://registry.npmjs.org/inflight not in flight; fetching
+417 silly cache afterAdd minimatch@3.0.4
+418 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\minimatch\3.0.4\package\package.json not in flight; writing
+419 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+420 verbose get https://registry.npmjs.org/path-is-absolute not expired, no request
+421 silly addNameRange number 2 { name: 'path-is-absolute',
+421 silly addNameRange   range: '>=1.0.0 <2.0.0',
+421 silly addNameRange   hasData: true }
+422 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0', '1.0.1' ] ]
+423 silly addNamed path-is-absolute@1.0.1
+424 verbose addNamed "1.0.1" is a plain semver version for path-is-absolute
+425 verbose get https://registry.npmjs.org/inflight not expired, no request
+426 silly addNameRange number 2 { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: true }
+427 silly addNameRange versions [ 'inflight',
+427 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6' ] ]
+428 silly addNamed inflight@1.0.6
+429 verbose addNamed "1.0.6" is a plain semver version for inflight
+430 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\fs.realpath\1.0.0\package\package.json written
+431 silly cache afterAdd path-is-absolute@1.0.1
+432 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\path-is-absolute\1.0.1\package\package.json not in flight; writing
+433 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+434 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\minimatch\3.0.4\package\package.json written
+435 silly cache afterAdd inflight@1.0.6
+436 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\inflight\1.0.6\package\package.json not in flight; writing
+437 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+438 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\path-is-absolute\1.0.1\package\package.json written
+439 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\inflight\1.0.6\package\package.json written
+440 silly fetchNamedPackageData brace-expansion
+441 silly mapToRegistry name brace-expansion
+442 silly mapToRegistry using default registry
+443 silly mapToRegistry registry https://registry.npmjs.org/
+444 silly mapToRegistry data Result {
+444 silly mapToRegistry   raw: 'brace-expansion',
+444 silly mapToRegistry   scope: null,
+444 silly mapToRegistry   escapedName: 'brace-expansion',
+444 silly mapToRegistry   name: 'brace-expansion',
+444 silly mapToRegistry   rawSpec: '',
+444 silly mapToRegistry   spec: 'latest',
+444 silly mapToRegistry   type: 'tag' }
+445 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+446 verbose request uri https://registry.npmjs.org/brace-expansion
+447 verbose request no auth needed
+448 info attempt registry request try #1 at 5:50:04 AM
+449 verbose etag W/"595b97db-595c"
+450 verbose lastModified Tue, 04 Jul 2017 13:27:55 GMT
+451 http request GET https://registry.npmjs.org/brace-expansion
+452 http 304 https://registry.npmjs.org/brace-expansion
+453 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+453 verbose headers   via: '1.1 varnish',
+453 verbose headers   'cache-control': 'max-age=300',
+453 verbose headers   etag: 'W/"595b97db-595c"',
+453 verbose headers   age: '235',
+453 verbose headers   connection: 'keep-alive',
+453 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+453 verbose headers   'x-cache': 'HIT',
+453 verbose headers   'x-cache-hits': '4',
+453 verbose headers   'x-timer': 'S1511304601.730971,VS0,VE0',
+453 verbose headers   vary: 'Accept-Encoding, Accept' }
+454 silly get cb [ 304,
+454 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+454 silly get     via: '1.1 varnish',
+454 silly get     'cache-control': 'max-age=300',
+454 silly get     etag: 'W/"595b97db-595c"',
+454 silly get     age: '235',
+454 silly get     connection: 'keep-alive',
+454 silly get     'x-served-by': 'cache-sin18023-SIN',
+454 silly get     'x-cache': 'HIT',
+454 silly get     'x-cache-hits': '4',
+454 silly get     'x-timer': 'S1511304601.730971,VS0,VE0',
+454 silly get     vary: 'Accept-Encoding, Accept' } ]
+455 verbose etag https://registry.npmjs.org/brace-expansion from cache
+456 verbose get saving brace-expansion to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\brace-expansion\.cache.json
+457 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+458 silly resolveWithNewModule brace-expansion@1.1.8 checking installable status
+459 silly cache add args [ 'brace-expansion@^1.1.7', null ]
+460 verbose cache add spec brace-expansion@^1.1.7
+461 silly cache add parsed spec Result {
+461 silly cache add   raw: 'brace-expansion@^1.1.7',
+461 silly cache add   scope: null,
+461 silly cache add   escapedName: 'brace-expansion',
+461 silly cache add   name: 'brace-expansion',
+461 silly cache add   rawSpec: '^1.1.7',
+461 silly cache add   spec: '>=1.1.7 <2.0.0',
+461 silly cache add   type: 'range' }
+462 silly addNamed brace-expansion@>=1.1.7 <2.0.0
+463 verbose addNamed ">=1.1.7 <2.0.0" is a valid semver range for brace-expansion
+464 silly addNameRange { name: 'brace-expansion',
+464 silly addNameRange   range: '>=1.1.7 <2.0.0',
+464 silly addNameRange   hasData: false }
+465 silly mapToRegistry name brace-expansion
+466 silly mapToRegistry using default registry
+467 silly mapToRegistry registry https://registry.npmjs.org/
+468 silly mapToRegistry data Result {
+468 silly mapToRegistry   raw: 'brace-expansion',
+468 silly mapToRegistry   scope: null,
+468 silly mapToRegistry   escapedName: 'brace-expansion',
+468 silly mapToRegistry   name: 'brace-expansion',
+468 silly mapToRegistry   rawSpec: '',
+468 silly mapToRegistry   spec: 'latest',
+468 silly mapToRegistry   type: 'tag' }
+469 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+470 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion not in flight; fetching
+471 verbose get https://registry.npmjs.org/brace-expansion not expired, no request
+472 silly addNameRange number 2 { name: 'brace-expansion',
+472 silly addNameRange   range: '>=1.1.7 <2.0.0',
+472 silly addNameRange   hasData: true }
+473 silly addNameRange versions [ 'brace-expansion',
+473 silly addNameRange   [ '0.0.0',
+473 silly addNameRange     '1.0.0',
+473 silly addNameRange     '1.0.1',
+473 silly addNameRange     '1.1.0',
+473 silly addNameRange     '1.1.1',
+473 silly addNameRange     '1.1.2',
+473 silly addNameRange     '1.1.3',
+473 silly addNameRange     '1.1.4',
+473 silly addNameRange     '1.1.5',
+473 silly addNameRange     '1.1.6',
+473 silly addNameRange     '1.1.7',
+473 silly addNameRange     '1.1.8' ] ]
+474 silly addNamed brace-expansion@1.1.8
+475 verbose addNamed "1.1.8" is a plain semver version for brace-expansion
+476 silly cache afterAdd brace-expansion@1.1.8
+477 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\brace-expansion\1.1.8\package\package.json not in flight; writing
+478 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+479 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\brace-expansion\1.1.8\package\package.json written
+480 silly fetchNamedPackageData balanced-match
+481 silly mapToRegistry name balanced-match
+482 silly mapToRegistry using default registry
+483 silly mapToRegistry registry https://registry.npmjs.org/
+484 silly mapToRegistry data Result {
+484 silly mapToRegistry   raw: 'balanced-match',
+484 silly mapToRegistry   scope: null,
+484 silly mapToRegistry   escapedName: 'balanced-match',
+484 silly mapToRegistry   name: 'balanced-match',
+484 silly mapToRegistry   rawSpec: '',
+484 silly mapToRegistry   spec: 'latest',
+484 silly mapToRegistry   type: 'tag' }
+485 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+486 silly fetchNamedPackageData concat-map
+487 silly mapToRegistry name concat-map
+488 silly mapToRegistry using default registry
+489 silly mapToRegistry registry https://registry.npmjs.org/
+490 silly mapToRegistry data Result {
+490 silly mapToRegistry   raw: 'concat-map',
+490 silly mapToRegistry   scope: null,
+490 silly mapToRegistry   escapedName: 'concat-map',
+490 silly mapToRegistry   name: 'concat-map',
+490 silly mapToRegistry   rawSpec: '',
+490 silly mapToRegistry   spec: 'latest',
+490 silly mapToRegistry   type: 'tag' }
+491 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+492 verbose request uri https://registry.npmjs.org/balanced-match
+493 verbose request no auth needed
+494 info attempt registry request try #1 at 5:50:04 AM
+495 verbose etag W/"59428b1a-476d"
+496 verbose lastModified Thu, 15 Jun 2017 13:26:50 GMT
+497 http request GET https://registry.npmjs.org/balanced-match
+498 verbose request uri https://registry.npmjs.org/concat-map
+499 verbose request no auth needed
+500 info attempt registry request try #1 at 5:50:04 AM
+501 verbose etag W/"52e9c1bb-f3a"
+502 verbose lastModified Thu, 30 Jan 2014 03:06:35 GMT
+503 http request GET https://registry.npmjs.org/concat-map
+504 http 304 https://registry.npmjs.org/balanced-match
+505 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+505 verbose headers   via: '1.1 varnish',
+505 verbose headers   'cache-control': 'max-age=300',
+505 verbose headers   etag: 'W/"59428b1a-476d"',
+505 verbose headers   age: '175',
+505 verbose headers   connection: 'keep-alive',
+505 verbose headers   'x-served-by': 'cache-sin18025-SIN',
+505 verbose headers   'x-cache': 'HIT',
+505 verbose headers   'x-cache-hits': '3',
+505 verbose headers   'x-timer': 'S1511304601.776346,VS0,VE0',
+505 verbose headers   vary: 'Accept-Encoding, Accept' }
+506 silly get cb [ 304,
+506 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+506 silly get     via: '1.1 varnish',
+506 silly get     'cache-control': 'max-age=300',
+506 silly get     etag: 'W/"59428b1a-476d"',
+506 silly get     age: '175',
+506 silly get     connection: 'keep-alive',
+506 silly get     'x-served-by': 'cache-sin18025-SIN',
+506 silly get     'x-cache': 'HIT',
+506 silly get     'x-cache-hits': '3',
+506 silly get     'x-timer': 'S1511304601.776346,VS0,VE0',
+506 silly get     vary: 'Accept-Encoding, Accept' } ]
+507 verbose etag https://registry.npmjs.org/balanced-match from cache
+508 verbose get saving balanced-match to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\balanced-match\.cache.json
+509 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+510 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+511 silly cache add args [ 'balanced-match@^1.0.0', null ]
+512 verbose cache add spec balanced-match@^1.0.0
+513 silly cache add parsed spec Result {
+513 silly cache add   raw: 'balanced-match@^1.0.0',
+513 silly cache add   scope: null,
+513 silly cache add   escapedName: 'balanced-match',
+513 silly cache add   name: 'balanced-match',
+513 silly cache add   rawSpec: '^1.0.0',
+513 silly cache add   spec: '>=1.0.0 <2.0.0',
+513 silly cache add   type: 'range' }
+514 silly addNamed balanced-match@>=1.0.0 <2.0.0
+515 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for balanced-match
+516 silly addNameRange { name: 'balanced-match',
+516 silly addNameRange   range: '>=1.0.0 <2.0.0',
+516 silly addNameRange   hasData: false }
+517 silly mapToRegistry name balanced-match
+518 silly mapToRegistry using default registry
+519 silly mapToRegistry registry https://registry.npmjs.org/
+520 silly mapToRegistry data Result {
+520 silly mapToRegistry   raw: 'balanced-match',
+520 silly mapToRegistry   scope: null,
+520 silly mapToRegistry   escapedName: 'balanced-match',
+520 silly mapToRegistry   name: 'balanced-match',
+520 silly mapToRegistry   rawSpec: '',
+520 silly mapToRegistry   spec: 'latest',
+520 silly mapToRegistry   type: 'tag' }
+521 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+522 verbose addNameRange registry:https://registry.npmjs.org/balanced-match not in flight; fetching
+523 http 304 https://registry.npmjs.org/concat-map
+524 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+524 verbose headers   via: '1.1 varnish',
+524 verbose headers   'cache-control': 'max-age=300',
+524 verbose headers   etag: 'W/"52e9c1bb-f3a"',
+524 verbose headers   age: '235',
+524 verbose headers   connection: 'keep-alive',
+524 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+524 verbose headers   'x-cache': 'HIT',
+524 verbose headers   'x-cache-hits': '2',
+524 verbose headers   'x-timer': 'S1511304601.779103,VS0,VE0',
+524 verbose headers   vary: 'Accept-Encoding, Accept' }
+525 silly get cb [ 304,
+525 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+525 silly get     via: '1.1 varnish',
+525 silly get     'cache-control': 'max-age=300',
+525 silly get     etag: 'W/"52e9c1bb-f3a"',
+525 silly get     age: '235',
+525 silly get     connection: 'keep-alive',
+525 silly get     'x-served-by': 'cache-sin18026-SIN',
+525 silly get     'x-cache': 'HIT',
+525 silly get     'x-cache-hits': '2',
+525 silly get     'x-timer': 'S1511304601.779103,VS0,VE0',
+525 silly get     vary: 'Accept-Encoding, Accept' } ]
+526 verbose etag https://registry.npmjs.org/concat-map from cache
+527 verbose get saving concat-map to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\concat-map\.cache.json
+528 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+529 verbose get https://registry.npmjs.org/balanced-match not expired, no request
+530 silly addNameRange number 2 { name: 'balanced-match',
+530 silly addNameRange   range: '>=1.0.0 <2.0.0',
+530 silly addNameRange   hasData: true }
+531 silly addNameRange versions [ 'balanced-match',
+531 silly addNameRange   [ '0.0.0',
+531 silly addNameRange     '0.0.1',
+531 silly addNameRange     '0.1.0',
+531 silly addNameRange     '0.2.0',
+531 silly addNameRange     '0.2.1',
+531 silly addNameRange     '0.3.0',
+531 silly addNameRange     '0.4.0',
+531 silly addNameRange     '0.4.1',
+531 silly addNameRange     '0.4.2',
+531 silly addNameRange     '1.0.0' ] ]
+532 silly addNamed balanced-match@1.0.0
+533 verbose addNamed "1.0.0" is a plain semver version for balanced-match
+534 silly cache afterAdd balanced-match@1.0.0
+535 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\balanced-match\1.0.0\package\package.json not in flight; writing
+536 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+537 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+538 silly cache add args [ 'concat-map@0.0.1', null ]
+539 verbose cache add spec concat-map@0.0.1
+540 silly cache add parsed spec Result {
+540 silly cache add   raw: 'concat-map@0.0.1',
+540 silly cache add   scope: null,
+540 silly cache add   escapedName: 'concat-map',
+540 silly cache add   name: 'concat-map',
+540 silly cache add   rawSpec: '0.0.1',
+540 silly cache add   spec: '0.0.1',
+540 silly cache add   type: 'version' }
+541 silly addNamed concat-map@0.0.1
+542 verbose addNamed "0.0.1" is a plain semver version for concat-map
+543 silly mapToRegistry name concat-map
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npmjs.org/
+546 silly mapToRegistry data Result {
+546 silly mapToRegistry   raw: 'concat-map',
+546 silly mapToRegistry   scope: null,
+546 silly mapToRegistry   escapedName: 'concat-map',
+546 silly mapToRegistry   name: 'concat-map',
+546 silly mapToRegistry   rawSpec: '',
+546 silly mapToRegistry   spec: 'latest',
+546 silly mapToRegistry   type: 'tag' }
+547 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+548 verbose addNameVersion registry:https://registry.npmjs.org/concat-map not in flight; fetching
+549 verbose get https://registry.npmjs.org/concat-map not expired, no request
+550 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\balanced-match\1.0.0\package\package.json written
+551 silly cache afterAdd concat-map@0.0.1
+552 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\concat-map\0.0.1\package\package.json not in flight; writing
+553 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+554 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\concat-map\0.0.1\package\package.json written
+555 silly fetchNamedPackageData ref
+556 silly mapToRegistry name ref
+557 silly mapToRegistry using default registry
+558 silly mapToRegistry registry https://registry.npmjs.org/
+559 silly mapToRegistry data Result {
+559 silly mapToRegistry   raw: 'ref',
+559 silly mapToRegistry   scope: null,
+559 silly mapToRegistry   escapedName: 'ref',
+559 silly mapToRegistry   name: 'ref',
+559 silly mapToRegistry   rawSpec: '',
+559 silly mapToRegistry   spec: 'latest',
+559 silly mapToRegistry   type: 'tag' }
+560 silly mapToRegistry uri https://registry.npmjs.org/ref
+561 silly fetchNamedPackageData ref-struct
+562 silly mapToRegistry name ref-struct
+563 silly mapToRegistry using default registry
+564 silly mapToRegistry registry https://registry.npmjs.org/
+565 silly mapToRegistry data Result {
+565 silly mapToRegistry   raw: 'ref-struct',
+565 silly mapToRegistry   scope: null,
+565 silly mapToRegistry   escapedName: 'ref-struct',
+565 silly mapToRegistry   name: 'ref-struct',
+565 silly mapToRegistry   rawSpec: '',
+565 silly mapToRegistry   spec: 'latest',
+565 silly mapToRegistry   type: 'tag' }
+566 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+567 verbose request uri https://registry.npmjs.org/ref-struct
+568 verbose request no auth needed
+569 info attempt registry request try #1 at 5:50:04 AM
+570 verbose etag W/"591436e6-412b"
+571 verbose lastModified Thu, 11 May 2017 10:03:18 GMT
+572 http request GET https://registry.npmjs.org/ref-struct
+573 verbose request uri https://registry.npmjs.org/ref
+574 verbose request no auth needed
+575 info attempt registry request try #1 at 5:50:04 AM
+576 verbose etag W/"59a59802-f8c3"
+577 verbose lastModified Tue, 29 Aug 2017 16:36:18 GMT
+578 http request GET https://registry.npmjs.org/ref
+579 http 304 https://registry.npmjs.org/ref-struct
+580 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+580 verbose headers   via: '1.1 varnish',
+580 verbose headers   'cache-control': 'max-age=300',
+580 verbose headers   etag: 'W/"591436e6-412b"',
+580 verbose headers   age: '53',
+580 verbose headers   connection: 'keep-alive',
+580 verbose headers   'x-served-by': 'cache-sin18020-SIN',
+580 verbose headers   'x-cache': 'HIT',
+580 verbose headers   'x-cache-hits': '1',
+580 verbose headers   'x-timer': 'S1511304601.890994,VS0,VE0',
+580 verbose headers   vary: 'Accept-Encoding, Accept' }
+581 silly get cb [ 304,
+581 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+581 silly get     via: '1.1 varnish',
+581 silly get     'cache-control': 'max-age=300',
+581 silly get     etag: 'W/"591436e6-412b"',
+581 silly get     age: '53',
+581 silly get     connection: 'keep-alive',
+581 silly get     'x-served-by': 'cache-sin18020-SIN',
+581 silly get     'x-cache': 'HIT',
+581 silly get     'x-cache-hits': '1',
+581 silly get     'x-timer': 'S1511304601.890994,VS0,VE0',
+581 silly get     vary: 'Accept-Encoding, Accept' } ]
+582 verbose etag https://registry.npmjs.org/ref-struct from cache
+583 verbose get saving ref-struct to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\ref-struct\.cache.json
+584 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+585 http 304 https://registry.npmjs.org/ref
+586 verbose headers { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+586 verbose headers   via: '1.1 varnish',
+586 verbose headers   'cache-control': 'max-age=300',
+586 verbose headers   etag: 'W/"59a59802-f8c3"',
+586 verbose headers   age: '53',
+586 verbose headers   connection: 'keep-alive',
+586 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+586 verbose headers   'x-cache': 'HIT',
+586 verbose headers   'x-cache-hits': '1',
+586 verbose headers   'x-timer': 'S1511304601.894821,VS0,VE0',
+586 verbose headers   vary: 'Accept-Encoding, Accept' }
+587 silly get cb [ 304,
+587 silly get   { date: 'Tue, 21 Nov 2017 22:50:00 GMT',
+587 silly get     via: '1.1 varnish',
+587 silly get     'cache-control': 'max-age=300',
+587 silly get     etag: 'W/"59a59802-f8c3"',
+587 silly get     age: '53',
+587 silly get     connection: 'keep-alive',
+587 silly get     'x-served-by': 'cache-sin18023-SIN',
+587 silly get     'x-cache': 'HIT',
+587 silly get     'x-cache-hits': '1',
+587 silly get     'x-timer': 'S1511304601.894821,VS0,VE0',
+587 silly get     vary: 'Accept-Encoding, Accept' } ]
+588 verbose etag https://registry.npmjs.org/ref from cache
+589 verbose get saving ref to C:\Users\RED\AppData\Roaming\npm-cache\registry.npmjs.org\ref\.cache.json
+590 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+591 silly resolveWithNewModule ref-struct@1.1.0 checking installable status
+592 silly cache add args [ 'ref-struct@1', null ]
+593 verbose cache add spec ref-struct@1
+594 silly cache add parsed spec Result {
+594 silly cache add   raw: 'ref-struct@1',
+594 silly cache add   scope: null,
+594 silly cache add   escapedName: 'ref-struct',
+594 silly cache add   name: 'ref-struct',
+594 silly cache add   rawSpec: '1',
+594 silly cache add   spec: '>=1.0.0 <2.0.0',
+594 silly cache add   type: 'range' }
+595 silly addNamed ref-struct@>=1.0.0 <2.0.0
+596 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ref-struct
+597 silly addNameRange { name: 'ref-struct', range: '>=1.0.0 <2.0.0', hasData: false }
+598 silly mapToRegistry name ref-struct
+599 silly mapToRegistry using default registry
+600 silly mapToRegistry registry https://registry.npmjs.org/
+601 silly mapToRegistry data Result {
+601 silly mapToRegistry   raw: 'ref-struct',
+601 silly mapToRegistry   scope: null,
+601 silly mapToRegistry   escapedName: 'ref-struct',
+601 silly mapToRegistry   name: 'ref-struct',
+601 silly mapToRegistry   rawSpec: '',
+601 silly mapToRegistry   spec: 'latest',
+601 silly mapToRegistry   type: 'tag' }
+602 silly mapToRegistry uri https://registry.npmjs.org/ref-struct
+603 verbose addNameRange registry:https://registry.npmjs.org/ref-struct not in flight; fetching
+604 silly resolveWithNewModule ref@1.3.5 checking installable status
+605 silly cache add args [ 'ref@1', null ]
+606 verbose cache add spec ref@1
+607 silly cache add parsed spec Result {
+607 silly cache add   raw: 'ref@1',
+607 silly cache add   scope: null,
+607 silly cache add   escapedName: 'ref',
+607 silly cache add   name: 'ref',
+607 silly cache add   rawSpec: '1',
+607 silly cache add   spec: '>=1.0.0 <2.0.0',
+607 silly cache add   type: 'range' }
+608 silly addNamed ref@>=1.0.0 <2.0.0
+609 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ref
+610 silly addNameRange { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: false }
+611 silly mapToRegistry name ref
+612 silly mapToRegistry using default registry
+613 silly mapToRegistry registry https://registry.npmjs.org/
+614 silly mapToRegistry data Result {
+614 silly mapToRegistry   raw: 'ref',
+614 silly mapToRegistry   scope: null,
+614 silly mapToRegistry   escapedName: 'ref',
+614 silly mapToRegistry   name: 'ref',
+614 silly mapToRegistry   rawSpec: '',
+614 silly mapToRegistry   spec: 'latest',
+614 silly mapToRegistry   type: 'tag' }
+615 silly mapToRegistry uri https://registry.npmjs.org/ref
+616 verbose addNameRange registry:https://registry.npmjs.org/ref not in flight; fetching
+617 verbose get https://registry.npmjs.org/ref-struct not expired, no request
+618 silly addNameRange number 2 { name: 'ref-struct', range: '>=1.0.0 <2.0.0', hasData: true }
+619 silly addNameRange versions [ 'ref-struct',
+619 silly addNameRange   [ '0.0.1',
+619 silly addNameRange     '0.0.2',
+619 silly addNameRange     '0.0.3',
+619 silly addNameRange     '0.0.4',
+619 silly addNameRange     '0.0.5',
+619 silly addNameRange     '0.0.6',
+619 silly addNameRange     '0.0.7',
+619 silly addNameRange     '1.0.0',
+619 silly addNameRange     '1.0.1',
+619 silly addNameRange     '1.0.2',
+619 silly addNameRange     '1.1.0' ] ]
+620 silly addNamed ref-struct@1.1.0
+621 verbose addNamed "1.1.0" is a plain semver version for ref-struct
+622 verbose get https://registry.npmjs.org/ref not expired, no request
+623 silly addNameRange number 2 { name: 'ref', range: '>=1.0.0 <2.0.0', hasData: true }
+624 silly addNameRange versions [ 'ref',
+624 silly addNameRange   [ '0.0.1',
+624 silly addNameRange     '0.0.2',
+624 silly addNameRange     '0.0.3',
+624 silly addNameRange     '0.0.4',
+624 silly addNameRange     '0.0.5',
+624 silly addNameRange     '0.0.6',
+624 silly addNameRange     '0.0.7',
+624 silly addNameRange     '0.0.8',
+624 silly addNameRange     '0.0.9',
+624 silly addNameRange     '0.0.10',
+624 silly addNameRange     '0.0.11',
+624 silly addNameRange     '0.0.12',
+624 silly addNameRange     '0.0.13',
+624 silly addNameRange     '0.0.14',
+624 silly addNameRange     '0.0.15',
+624 silly addNameRange     '0.0.16',
+624 silly addNameRange     '0.0.17',
+624 silly addNameRange     '0.0.18',
+624 silly addNameRange     '0.0.19',
+624 silly addNameRange     '0.0.20',
+624 silly addNameRange     '0.1.0',
+624 silly addNameRange     '0.1.1',
+624 silly addNameRange     '0.1.2',
+624 silly addNameRange     '0.1.3',
+624 silly addNameRange     '0.2.0',
+624 silly addNameRange     '0.2.1',
+624 silly addNameRange     '0.2.2',
+624 silly addNameRange     '0.2.3',
+624 silly addNameRange     '0.3.0',
+624 silly addNameRange     '0.3.1',
+624 silly addNameRange     '0.3.2',
+624 silly addNameRange     '0.3.3',
+624 silly addNameRange     '0.3.4',
+624 silly addNameRange     '0.3.5',
+624 silly addNameRange     '1.0.0',
+624 silly addNameRange     '1.0.1',
+624 silly addNameRange     '1.0.2',
+624 silly addNameRange     '1.1.0',
+624 silly addNameRange     '1.1.1',
+624 silly addNameRange     '1.1.2',
+624 silly addNameRange     '1.1.3',
+624 silly addNameRange     '1.2.0',
+624 silly addNameRange     '1.3.0',
+624 silly addNameRange     '1.3.1',
+624 silly addNameRange     '1.3.2',
+624 silly addNameRange     '1.3.3',
+624 silly addNameRange     '1.3.4',
+624 silly addNameRange     '1.3.5' ] ]
+625 silly addNamed ref@1.3.5
+626 verbose addNamed "1.3.5" is a plain semver version for ref
+627 silly cache afterAdd ref-struct@1.1.0
+628 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json not in flight; writing
+629 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+630 silly cache afterAdd ref@1.3.5
+631 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\ref\1.3.5\package\package.json not in flight; writing
+632 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+633 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\ref-struct\1.1.0\package\package.json written
+634 verbose afterAdd C:\Users\RED\AppData\Roaming\npm-cache\ref\1.3.5\package\package.json written
+635 silly loadAllDepsIntoIdealTree Finishing
+636 silly loadIdealTree Finishing
+637 silly currentTree socket-chat-example@0.0.1
+637 silly currentTree +-- accepts@1.3.4
+637 silly currentTree +-- after@0.8.2
+637 silly currentTree +-- ansi-regex@2.1.1
+637 silly currentTree +-- aproba@1.2.0
+637 silly currentTree +-- are-we-there-yet@1.1.4
+637 silly currentTree +-- array-flatten@1.1.1
+637 silly currentTree +-- arraybuffer.slice@0.0.6
+637 silly currentTree +-- asap@1.0.0
+637 silly currentTree +-- assert@1.4.1
+637 silly currentTree +-- async-limiter@1.0.0
+637 silly currentTree +-- async@2.6.0
+637 silly currentTree +-- backo2@1.0.2
+637 silly currentTree +-- base64-arraybuffer@0.1.5
+637 silly currentTree +-- base64id@1.0.0
+637 silly currentTree +-- better-assert@1.0.2
+637 silly currentTree +-- bindings@1.3.0
+637 silly currentTree +-- bl@1.2.1
+637 silly currentTree +-- blob@0.0.4
+637 silly currentTree +-- callsite@1.0.0
+637 silly currentTree +-- chownr@1.0.1
+637 silly currentTree +-- code-point-at@1.1.0
+637 silly currentTree +-- commander@2.11.0
+637 silly currentTree +-- component-bind@1.0.0
+637 silly currentTree +-- component-emitter@1.2.1
+637 silly currentTree +-- component-inherit@0.0.3
+637 silly currentTree +-- console-control-strings@1.1.0
+637 silly currentTree +-- content-disposition@0.5.2
+637 silly currentTree +-- content-type@1.0.4
+637 silly currentTree +-- cookie-signature@1.0.6
+637 silly currentTree +-- cookie@0.3.1
+637 silly currentTree +-- core-util-is@1.0.2
+637 silly currentTree +-- debug@2.6.1
+637 silly currentTree +-- deep-extend@0.4.2
+637 silly currentTree +-- delegates@1.0.0
+637 silly currentTree +-- depd@1.1.1
+637 silly currentTree +-- destroy@1.0.4
+637 silly currentTree +-- ee-first@1.1.1
+637 silly currentTree +-- encodeurl@1.0.1
+637 silly currentTree +-- end-of-stream@1.4.0
+637 silly currentTree +-- engine.io-client@3.1.4
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- engine.io-parser@2.1.1
+637 silly currentTree +-- engine.io@3.1.4
+637 silly currentTree | +-- accepts@1.3.3
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- escape-html@1.0.3
+637 silly currentTree +-- etag@1.8.1
+637 silly currentTree +-- expand-template@1.1.0
+637 silly currentTree +-- express@4.15.2
+637 silly currentTree +-- ffi@2.2.0
+637 silly currentTree | `-- bindings@1.2.1
+637 silly currentTree +-- finalhandler@1.0.6
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- forwarded@0.1.2
+637 silly currentTree +-- fresh@0.5.0
+637 silly currentTree +-- gauge@2.7.4
+637 silly currentTree +-- github-from-package@0.0.0
+637 silly currentTree +-- has-binary2@1.0.2
+637 silly currentTree +-- has-cors@1.1.0
+637 silly currentTree +-- has-unicode@2.0.1
+637 silly currentTree +-- http-errors@1.6.2
+637 silly currentTree +-- indexof@0.0.1
+637 silly currentTree +-- inherits@2.0.3
+637 silly currentTree +-- ini@1.3.4
+637 silly currentTree +-- ipaddr.js@1.4.0
+637 silly currentTree +-- is-fullwidth-code-point@1.0.0
+637 silly currentTree +-- isarray@2.0.1
+637 silly currentTree +-- kbm-robot@0.0.4
+637 silly currentTree +-- lodash@4.17.4
+637 silly currentTree +-- media-typer@0.3.0
+637 silly currentTree +-- merge-descriptors@1.0.1
+637 silly currentTree +-- methods@1.1.2
+637 silly currentTree +-- mime-db@1.30.0
+637 silly currentTree +-- mime-types@2.1.17
+637 silly currentTree +-- mime@1.3.4
+637 silly currentTree +-- minimist@1.2.0
+637 silly currentTree +-- mkdirp@0.5.1
+637 silly currentTree | `-- minimist@0.0.8
+637 silly currentTree +-- ms@0.7.2
+637 silly currentTree +-- nan@2.8.0
+637 silly currentTree +-- negotiator@0.6.1
+637 silly currentTree +-- node-abi@2.1.2
+637 silly currentTree +-- node-key-sender@1.0.9
+637 silly currentTree +-- node-proxy@1.0.0
+637 silly currentTree +-- noop-logger@0.1.1
+637 silly currentTree +-- npmlog@4.1.2
+637 silly currentTree +-- number-is-nan@1.0.1
+637 silly currentTree +-- object-assign@4.1.1
+637 silly currentTree +-- object-component@0.0.3
+637 silly currentTree +-- on-finished@2.3.0
+637 silly currentTree +-- once@1.4.0
+637 silly currentTree +-- os-homedir@1.0.2
+637 silly currentTree +-- parseqs@0.0.5
+637 silly currentTree +-- parseuri@0.0.5
+637 silly currentTree +-- parseurl@1.3.2
+637 silly currentTree +-- path-to-regexp@0.1.7
+637 silly currentTree +-- prebuild-install@2.3.0
+637 silly currentTree +-- process-nextick-args@1.0.7
+637 silly currentTree +-- promirepl@1.0.1
+637 silly currentTree +-- promise@6.1.0
+637 silly currentTree +-- proxy-addr@1.1.5
+637 silly currentTree +-- pump@1.0.3
+637 silly currentTree +-- qs@6.4.0
+637 silly currentTree +-- range-parser@1.2.0
+637 silly currentTree +-- rc@1.2.2
+637 silly currentTree +-- readable-stream@2.3.3
+637 silly currentTree | `-- isarray@1.0.0
+637 silly currentTree +-- safe-buffer@5.1.1
+637 silly currentTree +-- semver@5.4.1
+637 silly currentTree +-- send@0.15.1
+637 silly currentTree +-- serialport@6.0.4
+637 silly currentTree | +-- debug@3.1.0
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- serve-static@1.12.1
+637 silly currentTree +-- set-blocking@2.0.0
+637 silly currentTree +-- setprototypeof@1.0.3
+637 silly currentTree +-- signal-exit@3.0.2
+637 silly currentTree +-- simple-get@1.4.3
+637 silly currentTree +-- socket.io-adapter@1.1.1
+637 silly currentTree +-- socket.io-client@2.0.4
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- socket.io-parser@3.1.2
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- socket.io@2.0.4
+637 silly currentTree | +-- debug@2.6.9
+637 silly currentTree | `-- ms@2.0.0
+637 silly currentTree +-- statuses@1.3.1
+637 silly currentTree +-- string_decoder@1.0.3
+637 silly currentTree +-- string-width@1.0.2
+637 silly currentTree +-- strip-ansi@3.0.1
+637 silly currentTree +-- strip-json-comments@2.0.1
+637 silly currentTree +-- tar-fs@1.16.0
+637 silly currentTree +-- tar-stream@1.5.5
+637 silly currentTree +-- to-array@0.1.4
+637 silly currentTree +-- tunnel-agent@0.6.0
+637 silly currentTree +-- type-is@1.6.15
+637 silly currentTree +-- ultron@1.1.0
+637 silly currentTree +-- unpipe@1.0.0
+637 silly currentTree +-- unzip-response@1.0.2
+637 silly currentTree +-- util-deprecate@1.0.2
+637 silly currentTree +-- util@0.10.3
+637 silly currentTree | `-- inherits@2.0.1
+637 silly currentTree +-- utils-merge@1.0.0
+637 silly currentTree +-- uws@0.14.5
+637 silly currentTree +-- vary@1.1.2
+637 silly currentTree +-- wide-align@1.1.2
+637 silly currentTree +-- wrappy@1.0.2
+637 silly currentTree +-- ws@3.3.1
+637 silly currentTree +-- xmlhttprequest-ssl@1.5.4
+637 silly currentTree +-- xtend@4.0.1
+637 silly currentTree `-- yeast@0.1.2
+638 silly idealTree socket-chat-example@0.0.1
+638 silly idealTree +-- accepts@1.3.4
+638 silly idealTree +-- after@0.8.2
+638 silly idealTree +-- ansi-regex@2.1.1
+638 silly idealTree +-- aproba@1.2.0
+638 silly idealTree +-- are-we-there-yet@1.1.4
+638 silly idealTree +-- array-flatten@1.1.1
+638 silly idealTree +-- arraybuffer.slice@0.0.6
+638 silly idealTree +-- asap@1.0.0
+638 silly idealTree +-- assert@1.4.1
+638 silly idealTree +-- async-limiter@1.0.0
+638 silly idealTree +-- async@2.6.0
+638 silly idealTree +-- backo2@1.0.2
+638 silly idealTree +-- balanced-match@1.0.0
+638 silly idealTree +-- base64-arraybuffer@0.1.5
+638 silly idealTree +-- base64id@1.0.0
+638 silly idealTree +-- better-assert@1.0.2
+638 silly idealTree +-- bindings@1.3.0
+638 silly idealTree +-- bl@1.2.1
+638 silly idealTree +-- blob@0.0.4
+638 silly idealTree +-- brace-expansion@1.1.8
+638 silly idealTree +-- callsite@1.0.0
+638 silly idealTree +-- chownr@1.0.1
+638 silly idealTree +-- code-point-at@1.1.0
+638 silly idealTree +-- commander@2.11.0
+638 silly idealTree +-- component-bind@1.0.0
+638 silly idealTree +-- component-emitter@1.2.1
+638 silly idealTree +-- component-inherit@0.0.3
+638 silly idealTree +-- concat-map@0.0.1
+638 silly idealTree +-- console-control-strings@1.1.0
+638 silly idealTree +-- content-disposition@0.5.2
+638 silly idealTree +-- content-type@1.0.4
+638 silly idealTree +-- cookie-signature@1.0.6
+638 silly idealTree +-- cookie@0.3.1
+638 silly idealTree +-- core-util-is@1.0.2
+638 silly idealTree +-- debug@2.6.1
+638 silly idealTree +-- deep-extend@0.4.2
+638 silly idealTree +-- delegates@1.0.0
+638 silly idealTree +-- depd@1.1.1
+638 silly idealTree +-- destroy@1.0.4
+638 silly idealTree +-- ee-first@1.1.1
+638 silly idealTree +-- encodeurl@1.0.1
+638 silly idealTree +-- end-of-stream@1.4.0
+638 silly idealTree +-- engine.io-client@3.1.4
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- engine.io-parser@2.1.1
+638 silly idealTree +-- engine.io@3.1.4
+638 silly idealTree | +-- accepts@1.3.3
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- escape-html@1.0.3
+638 silly idealTree +-- etag@1.8.1
+638 silly idealTree +-- expand-template@1.1.0
+638 silly idealTree +-- express@4.15.2
+638 silly idealTree +-- ffi@2.2.0
+638 silly idealTree | `-- bindings@1.2.1
+638 silly idealTree +-- finalhandler@1.0.6
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- find-java-home@0.2.0
+638 silly idealTree +-- forwarded@0.1.2
+638 silly idealTree +-- fresh@0.5.0
+638 silly idealTree +-- fs.realpath@1.0.0
+638 silly idealTree +-- gauge@2.7.4
+638 silly idealTree +-- github-from-package@0.0.0
+638 silly idealTree +-- glob@7.1.2
+638 silly idealTree +-- has-binary2@1.0.2
+638 silly idealTree +-- has-cors@1.1.0
+638 silly idealTree +-- has-unicode@2.0.1
+638 silly idealTree +-- http-errors@1.6.2
+638 silly idealTree +-- indexof@0.0.1
+638 silly idealTree +-- inflight@1.0.6
+638 silly idealTree +-- inherits@2.0.3
+638 silly idealTree +-- ini@1.3.4
+638 silly idealTree +-- ipaddr.js@1.4.0
+638 silly idealTree +-- is-fullwidth-code-point@1.0.0
+638 silly idealTree +-- isarray@2.0.1
+638 silly idealTree +-- java@0.9.0
+638 silly idealTree | +-- async@2.5.0
+638 silly idealTree | `-- nan@2.7.0
+638 silly idealTree +-- kbm-robot@0.0.4
+638 silly idealTree +-- lodash@4.17.4
+638 silly idealTree +-- media-typer@0.3.0
+638 silly idealTree +-- merge-descriptors@1.0.1
+638 silly idealTree +-- methods@1.1.2
+638 silly idealTree +-- mime-db@1.30.0
+638 silly idealTree +-- mime-types@2.1.17
+638 silly idealTree +-- mime@1.3.4
+638 silly idealTree +-- minimatch@3.0.4
+638 silly idealTree +-- minimist@1.2.0
+638 silly idealTree +-- mkdirp@0.5.1
+638 silly idealTree | `-- minimist@0.0.8
+638 silly idealTree +-- ms@0.7.2
+638 silly idealTree +-- nan@2.8.0
+638 silly idealTree +-- negotiator@0.6.1
+638 silly idealTree +-- node-abi@2.1.2
+638 silly idealTree +-- node-key-sender@1.0.9
+638 silly idealTree +-- node-proxy@1.0.0
+638 silly idealTree +-- noop-logger@0.1.1
+638 silly idealTree +-- npmlog@4.1.2
+638 silly idealTree +-- number-is-nan@1.0.1
+638 silly idealTree +-- object-assign@4.1.1
+638 silly idealTree +-- object-component@0.0.3
+638 silly idealTree +-- on-finished@2.3.0
+638 silly idealTree +-- once@1.4.0
+638 silly idealTree +-- os-homedir@1.0.2
+638 silly idealTree +-- parseqs@0.0.5
+638 silly idealTree +-- parseuri@0.0.5
+638 silly idealTree +-- parseurl@1.3.2
+638 silly idealTree +-- path-is-absolute@1.0.1
+638 silly idealTree +-- path-to-regexp@0.1.7
+638 silly idealTree +-- prebuild-install@2.3.0
+638 silly idealTree +-- process-nextick-args@1.0.7
+638 silly idealTree +-- promirepl@1.0.1
+638 silly idealTree +-- promise@6.1.0
+638 silly idealTree +-- proxy-addr@1.1.5
+638 silly idealTree +-- pump@1.0.3
+638 silly idealTree +-- qs@6.4.0
+638 silly idealTree +-- range-parser@1.2.0
+638 silly idealTree +-- rc@1.2.2
+638 silly idealTree +-- readable-stream@2.3.3
+638 silly idealTree | `-- isarray@1.0.0
+638 silly idealTree +-- ref-struct@1.1.0
+638 silly idealTree +-- ref@1.3.5
+638 silly idealTree +-- safe-buffer@5.1.1
+638 silly idealTree +-- semver@5.4.1
+638 silly idealTree +-- send@0.15.1
+638 silly idealTree +-- serialport@6.0.4
+638 silly idealTree | +-- debug@3.1.0
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- serve-static@1.12.1
+638 silly idealTree +-- set-blocking@2.0.0
+638 silly idealTree +-- setprototypeof@1.0.3
+638 silly idealTree +-- signal-exit@3.0.2
+638 silly idealTree +-- simple-get@1.4.3
+638 silly idealTree +-- socket.io-adapter@1.1.1
+638 silly idealTree +-- socket.io-client@2.0.4
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- socket.io-parser@3.1.2
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- socket.io@2.0.4
+638 silly idealTree | +-- debug@2.6.9
+638 silly idealTree | `-- ms@2.0.0
+638 silly idealTree +-- statuses@1.3.1
+638 silly idealTree +-- string_decoder@1.0.3
+638 silly idealTree +-- string-width@1.0.2
+638 silly idealTree +-- strip-ansi@3.0.1
+638 silly idealTree +-- strip-json-comments@2.0.1
+638 silly idealTree +-- tar-fs@1.16.0
+638 silly idealTree +-- tar-stream@1.5.5
+638 silly idealTree +-- to-array@0.1.4
+638 silly idealTree +-- tunnel-agent@0.6.0
+638 silly idealTree +-- type-is@1.6.15
+638 silly idealTree +-- ultron@1.1.0
+638 silly idealTree +-- unpipe@1.0.0
+638 silly idealTree +-- unzip-response@1.0.2
+638 silly idealTree +-- util-deprecate@1.0.2
+638 silly idealTree +-- util@0.10.3
+638 silly idealTree | `-- inherits@2.0.1
+638 silly idealTree +-- utils-merge@1.0.0
+638 silly idealTree +-- uws@0.14.5
+638 silly idealTree +-- vary@1.1.2
+638 silly idealTree +-- which@1.0.9
+638 silly idealTree +-- wide-align@1.1.2
+638 silly idealTree +-- winreg@1.2.4
+638 silly idealTree +-- wrappy@1.0.2
+638 silly idealTree +-- ws@3.3.1
+638 silly idealTree +-- xmlhttprequest-ssl@1.5.4
+638 silly idealTree +-- xtend@4.0.1
+638 silly idealTree `-- yeast@0.1.2
+639 silly generateActionsToTake Starting
+640 silly install generateActionsToTake
+641 silly generateActionsToTake Finishing
+642 silly diffTrees action count 16
+643 silly diffTrees add balanced-match@1.0.0
+644 silly diffTrees add concat-map@0.0.1
+645 silly diffTrees add brace-expansion@1.1.8
+646 silly diffTrees add fs.realpath@1.0.0
+647 silly diffTrees add inflight@1.0.6
+648 silly diffTrees add minimatch@3.0.4
+649 silly diffTrees add path-is-absolute@1.0.1
+650 silly diffTrees add ref@1.3.5
+651 silly diffTrees add which@1.0.9
+652 silly diffTrees add winreg@1.2.4
+653 silly diffTrees add find-java-home@0.2.0
+654 silly diffTrees add glob@7.1.2
+655 silly diffTrees add async@2.5.0
+656 silly diffTrees add nan@2.7.0
+657 silly diffTrees add java@0.9.0
+658 silly diffTrees add ref-struct@1.1.0
+659 silly decomposeActions action count 128
+660 silly decomposeActions fetch balanced-match@1.0.0
+661 silly decomposeActions extract balanced-match@1.0.0
+662 silly decomposeActions test balanced-match@1.0.0
+663 silly decomposeActions preinstall balanced-match@1.0.0
+664 silly decomposeActions build balanced-match@1.0.0
+665 silly decomposeActions install balanced-match@1.0.0
+666 silly decomposeActions postinstall balanced-match@1.0.0
+667 silly decomposeActions finalize balanced-match@1.0.0
+668 silly decomposeActions fetch concat-map@0.0.1
+669 silly decomposeActions extract concat-map@0.0.1
+670 silly decomposeActions test concat-map@0.0.1
+671 silly decomposeActions preinstall concat-map@0.0.1
+672 silly decomposeActions build concat-map@0.0.1
+673 silly decomposeActions install concat-map@0.0.1
+674 silly decomposeActions postinstall concat-map@0.0.1
+675 silly decomposeActions finalize concat-map@0.0.1
+676 silly decomposeActions fetch brace-expansion@1.1.8
+677 silly decomposeActions extract brace-expansion@1.1.8
+678 silly decomposeActions test brace-expansion@1.1.8
+679 silly decomposeActions preinstall brace-expansion@1.1.8
+680 silly decomposeActions build brace-expansion@1.1.8
+681 silly decomposeActions install brace-expansion@1.1.8
+682 silly decomposeActions postinstall brace-expansion@1.1.8
+683 silly decomposeActions finalize brace-expansion@1.1.8
+684 silly decomposeActions fetch fs.realpath@1.0.0
+685 silly decomposeActions extract fs.realpath@1.0.0
+686 silly decomposeActions test fs.realpath@1.0.0
+687 silly decomposeActions preinstall fs.realpath@1.0.0
+688 silly decomposeActions build fs.realpath@1.0.0
+689 silly decomposeActions install fs.realpath@1.0.0
+690 silly decomposeActions postinstall fs.realpath@1.0.0
+691 silly decomposeActions finalize fs.realpath@1.0.0
+692 silly decomposeActions fetch inflight@1.0.6
+693 silly decomposeActions extract inflight@1.0.6
+694 silly decomposeActions test inflight@1.0.6
+695 silly decomposeActions preinstall inflight@1.0.6
+696 silly decomposeActions build inflight@1.0.6
+697 silly decomposeActions install inflight@1.0.6
+698 silly decomposeActions postinstall inflight@1.0.6
+699 silly decomposeActions finalize inflight@1.0.6
+700 silly decomposeActions fetch minimatch@3.0.4
+701 silly decomposeActions extract minimatch@3.0.4
+702 silly decomposeActions test minimatch@3.0.4
+703 silly decomposeActions preinstall minimatch@3.0.4
+704 silly decomposeActions build minimatch@3.0.4
+705 silly decomposeActions install minimatch@3.0.4
+706 silly decomposeActions postinstall minimatch@3.0.4
+707 silly decomposeActions finalize minimatch@3.0.4
+708 silly decomposeActions fetch path-is-absolute@1.0.1
+709 silly decomposeActions extract path-is-absolute@1.0.1
+710 silly decomposeActions test path-is-absolute@1.0.1
+711 silly decomposeActions preinstall path-is-absolute@1.0.1
+712 silly decomposeActions build path-is-absolute@1.0.1
+713 silly decomposeActions install path-is-absolute@1.0.1
+714 silly decomposeActions postinstall path-is-absolute@1.0.1
+715 silly decomposeActions finalize path-is-absolute@1.0.1
+716 silly decomposeActions fetch ref@1.3.5
+717 silly decomposeActions extract ref@1.3.5
+718 silly decomposeActions test ref@1.3.5
+719 silly decomposeActions preinstall ref@1.3.5
+720 silly decomposeActions build ref@1.3.5
+721 silly decomposeActions install ref@1.3.5
+722 silly decomposeActions postinstall ref@1.3.5
+723 silly decomposeActions finalize ref@1.3.5
+724 silly decomposeActions fetch which@1.0.9
+725 silly decomposeActions extract which@1.0.9
+726 silly decomposeActions test which@1.0.9
+727 silly decomposeActions preinstall which@1.0.9
+728 silly decomposeActions build which@1.0.9
+729 silly decomposeActions install which@1.0.9
+730 silly decomposeActions postinstall which@1.0.9
+731 silly decomposeActions finalize which@1.0.9
+732 silly decomposeActions fetch winreg@1.2.4
+733 silly decomposeActions extract winreg@1.2.4
+734 silly decomposeActions test winreg@1.2.4
+735 silly decomposeActions preinstall winreg@1.2.4
+736 silly decomposeActions build winreg@1.2.4
+737 silly decomposeActions install winreg@1.2.4
+738 silly decomposeActions postinstall winreg@1.2.4
+739 silly decomposeActions finalize winreg@1.2.4
+740 silly decomposeActions fetch find-java-home@0.2.0
+741 silly decomposeActions extract find-java-home@0.2.0
+742 silly decomposeActions test find-java-home@0.2.0
+743 silly decomposeActions preinstall find-java-home@0.2.0
+744 silly decomposeActions build find-java-home@0.2.0
+745 silly decomposeActions install find-java-home@0.2.0
+746 silly decomposeActions postinstall find-java-home@0.2.0
+747 silly decomposeActions finalize find-java-home@0.2.0
+748 silly decomposeActions fetch glob@7.1.2
+749 silly decomposeActions extract glob@7.1.2
+750 silly decomposeActions test glob@7.1.2
+751 silly decomposeActions preinstall glob@7.1.2
+752 silly decomposeActions build glob@7.1.2
+753 silly decomposeActions install glob@7.1.2
+754 silly decomposeActions postinstall glob@7.1.2
+755 silly decomposeActions finalize glob@7.1.2
+756 silly decomposeActions fetch async@2.5.0
+757 silly decomposeActions extract async@2.5.0
+758 silly decomposeActions test async@2.5.0
+759 silly decomposeActions preinstall async@2.5.0
+760 silly decomposeActions build async@2.5.0
+761 silly decomposeActions install async@2.5.0
+762 silly decomposeActions postinstall async@2.5.0
+763 silly decomposeActions finalize async@2.5.0
+764 silly decomposeActions fetch nan@2.7.0
+765 silly decomposeActions extract nan@2.7.0
+766 silly decomposeActions test nan@2.7.0
+767 silly decomposeActions preinstall nan@2.7.0
+768 silly decomposeActions build nan@2.7.0
+769 silly decomposeActions install nan@2.7.0
+770 silly decomposeActions postinstall nan@2.7.0
+771 silly decomposeActions finalize nan@2.7.0
+772 silly decomposeActions fetch java@0.9.0
+773 silly decomposeActions extract java@0.9.0
+774 silly decomposeActions test java@0.9.0
+775 silly decomposeActions preinstall java@0.9.0
+776 silly decomposeActions build java@0.9.0
+777 silly decomposeActions install java@0.9.0
+778 silly decomposeActions postinstall java@0.9.0
+779 silly decomposeActions finalize java@0.9.0
+780 silly decomposeActions fetch ref-struct@1.1.0
+781 silly decomposeActions extract ref-struct@1.1.0
+782 silly decomposeActions test ref-struct@1.1.0
+783 silly decomposeActions preinstall ref-struct@1.1.0
+784 silly decomposeActions build ref-struct@1.1.0
+785 silly decomposeActions install ref-struct@1.1.0
+786 silly decomposeActions postinstall ref-struct@1.1.0
+787 silly decomposeActions finalize ref-struct@1.1.0
+788 silly runTopLevelLifecycles Starting
+789 silly executeActions Starting
+790 silly install executeActions
+791 silly doSerial global-install 0
+792 silly doParallel fetch 16
+793 verbose correctMkdir C:\Users\RED\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+794 verbose lock using C:\Users\RED\AppData\Roaming\npm-cache\_locks\staging-9286b2d0920f84e5.lock for C:\Users\RED\Documents\socketio\node_modules\.staging
+795 silly doParallel extract 16
+796 silly extract balanced-match@1.0.0
+797 silly extract concat-map@0.0.1
+798 silly extract brace-expansion@1.1.8
+799 silly extract fs.realpath@1.0.0
+800 silly extract inflight@1.0.6
+801 silly extract minimatch@3.0.4
+802 silly extract path-is-absolute@1.0.1
+803 silly extract ref@1.3.5
+804 silly extract which@1.0.9
+805 silly extract winreg@1.2.4
+806 silly extract find-java-home@0.2.0
+807 silly extract glob@7.1.2
+808 silly extract async@2.5.0
+809 silly extract nan@2.7.0
+810 silly extract java@0.9.0
+811 silly extract ref-struct@1.1.0
+812 verbose unbuild node_modules\.staging\balanced-match-8a89fa90
+813 verbose unbuild node_modules\.staging\concat-map-079bc770
+814 verbose unbuild node_modules\.staging\fs.realpath-ae9f5c02
+815 verbose unbuild node_modules\.staging\inflight-d31c5b5c
+816 verbose unbuild node_modules\.staging\brace-expansion-45836540
+817 verbose unbuild node_modules\.staging\path-is-absolute-1a1cd6a9
+818 verbose unbuild node_modules\.staging\ref-763a26b4
+819 verbose unbuild node_modules\.staging\minimatch-09e981b2
+820 verbose unbuild node_modules\.staging\glob-8b1b0c32
+821 verbose unbuild node_modules\.staging\winreg-401eb72c
+822 verbose unbuild node_modules\.staging\async-043f449a
+823 verbose unbuild node_modules\.staging\java-86f1efcb
+824 verbose unbuild node_modules\.staging\find-java-home-61d37f5a
+825 verbose unbuild node_modules\.staging\nan-14e19895
+826 verbose unbuild node_modules\.staging\ref-struct-151dd108
+827 verbose unbuild node_modules\.staging\which-1c9a8676
+828 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90 is being purged from base C:\Users\RED\Documents\socketio
+829 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90
+830 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770 is being purged from base C:\Users\RED\Documents\socketio
+831 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770
+832 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c is being purged from base C:\Users\RED\Documents\socketio
+833 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c
+834 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02 is being purged from base C:\Users\RED\Documents\socketio
+835 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02
+836 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540 is being purged from base C:\Users\RED\Documents\socketio
+837 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540
+838 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9 is being purged from base C:\Users\RED\Documents\socketio
+839 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9
+840 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4 is being purged from base C:\Users\RED\Documents\socketio
+841 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4
+842 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2 is being purged from base C:\Users\RED\Documents\socketio
+843 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2
+844 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32 is being purged from base C:\Users\RED\Documents\socketio
+845 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32
+846 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c is being purged from base C:\Users\RED\Documents\socketio
+847 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c
+848 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a is being purged from base C:\Users\RED\Documents\socketio
+849 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a
+850 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb is being purged from base C:\Users\RED\Documents\socketio
+851 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb
+852 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895 is being purged from base C:\Users\RED\Documents\socketio
+853 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895
+854 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a is being purged from base C:\Users\RED\Documents\socketio
+855 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a
+856 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108 is being purged from base C:\Users\RED\Documents\socketio
+857 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108
+858 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\balanced-match\1.0.0\package.tgz
+859 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90
+860 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90 is being purged
+861 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90
+862 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\concat-map\0.0.1\package.tgz
+863 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770
+864 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770 is being purged
+865 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770
+866 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\inflight\1.0.6\package.tgz
+867 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c
+868 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c is being purged
+869 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c
+870 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\fs.realpath\1.0.0\package.tgz
+871 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02
+872 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02 is being purged
+873 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02
+874 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\brace-expansion\1.1.8\package.tgz
+875 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540
+876 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540 is being purged
+877 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540
+878 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\path-is-absolute\1.0.1\package.tgz
+879 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9
+880 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9 is being purged
+881 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9
+882 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\ref\1.3.5\package.tgz
+883 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4
+884 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4 is being purged
+885 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4
+886 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\minimatch\3.0.4\package.tgz
+887 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2
+888 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2 is being purged
+889 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2
+890 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\glob\7.1.2\package.tgz
+891 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32
+892 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32 is being purged
+893 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32
+894 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\winreg\1.2.4\package.tgz
+895 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c
+896 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c is being purged
+897 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c
+898 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\async\2.5.0\package.tgz
+899 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a
+900 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a is being purged
+901 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a
+902 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676 is being purged from base C:\Users\RED\Documents\socketio
+903 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676
+904 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\java\0.9.0\package.tgz
+905 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb
+906 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb is being purged
+907 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb
+908 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\nan\2.7.0\package.tgz
+909 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895
+910 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895 is being purged
+911 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895
+912 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\find-java-home\0.2.0\package.tgz
+913 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a
+914 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a is being purged
+915 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a
+916 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\ref-struct\1.1.0\package.tgz
+917 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108
+918 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108 is being purged
+919 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108
+920 silly gunzTarPerm modes [ '777', '666' ]
+921 silly gunzTarPerm modes [ '777', '666' ]
+922 silly gunzTarPerm modes [ '777', '666' ]
+923 silly gunzTarPerm modes [ '777', '666' ]
+924 silly gunzTarPerm modes [ '777', '666' ]
+925 silly gunzTarPerm modes [ '777', '666' ]
+926 silly gunzTarPerm modes [ '777', '666' ]
+927 silly gunzTarPerm modes [ '777', '666' ]
+928 silly gunzTarPerm modes [ '777', '666' ]
+929 silly gunzTarPerm modes [ '777', '666' ]
+930 silly gunzTarPerm modes [ '777', '666' ]
+931 verbose tar unpack C:\Users\RED\AppData\Roaming\npm-cache\which\1.0.9\package.tgz
+932 verbose tar unpacking to C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676
+933 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676 is being purged
+934 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676
+935 silly gunzTarPerm modes [ '777', '666' ]
+936 silly gunzTarPerm modes [ '777', '666' ]
+937 silly gunzTarPerm modes [ '777', '666' ]
+938 silly gunzTarPerm modes [ '777', '666' ]
+939 silly gunzTarPerm modes [ '777', '666' ]
+940 silly gunzTarPerm extractEntry package.json
+941 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+942 silly gunzTarPerm extractEntry package.json
+943 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+944 silly gunzTarPerm extractEntry package.json
+945 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+946 silly gunzTarPerm extractEntry package.json
+947 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+948 silly gunzTarPerm extractEntry package.json
+949 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+950 silly gunzTarPerm extractEntry package.json
+951 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+952 silly gunzTarPerm extractEntry package.json
+953 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+954 silly gunzTarPerm extractEntry package.json
+955 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+956 silly gunzTarPerm extractEntry package.json
+957 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+958 silly gunzTarPerm extractEntry package.json
+959 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+960 silly gunzTarPerm extractEntry package.json
+961 silly gunzTarPerm extractEntry package.json
+962 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+963 silly gunzTarPerm extractEntry package.json
+964 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+965 silly gunzTarPerm extractEntry package.json
+966 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+967 silly gunzTarPerm extractEntry package.json
+968 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+969 silly gunzTarPerm extractEntry package.json
+970 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+971 silly gunzTarPerm extractEntry .npmignore
+972 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+973 silly gunzTarPerm extractEntry README.md
+974 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+975 silly gunzTarPerm extractEntry LICENSE
+976 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+977 silly gunzTarPerm extractEntry index.js
+978 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+979 silly gunzTarPerm extractEntry README.md
+980 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+981 silly gunzTarPerm extractEntry index.js
+982 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+983 silly gunzTarPerm extractEntry README.md
+984 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+985 silly gunzTarPerm extractEntry LICENSE
+986 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+987 silly gunzTarPerm extractEntry README.md
+988 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+989 silly gunzTarPerm extractEntry LICENSE
+990 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+991 silly gunzTarPerm extractEntry index.js
+992 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+993 silly gunzTarPerm extractEntry license
+994 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+995 silly gunzTarPerm extractEntry .npmignore
+996 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+997 silly gunzTarPerm extractEntry README.md
+998 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+999 silly gunzTarPerm extractEntry README.md
+1000 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1001 silly gunzTarPerm extractEntry LICENSE
+1002 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1003 silly gunzTarPerm extractEntry common.js
+1004 silly gunzTarPerm modified mode [ 'common.js', 420, 438 ]
+1005 silly gunzTarPerm extractEntry glob.js
+1006 silly gunzTarPerm modified mode [ 'glob.js', 420, 438 ]
+1007 silly gunzTarPerm extractEntry sync.js
+1008 silly gunzTarPerm modified mode [ 'sync.js', 420, 438 ]
+1009 silly gunzTarPerm extractEntry changelog.md
+1010 silly gunzTarPerm modified mode [ 'changelog.md', 420, 438 ]
+1011 silly gunzTarPerm extractEntry README.md
+1012 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1013 silly gunzTarPerm extractEntry LICENSE
+1014 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1015 silly gunzTarPerm extractEntry README.md
+1016 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1017 silly gunzTarPerm extractEntry LICENSE
+1018 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1019 silly gunzTarPerm extractEntry .npmignore
+1020 silly gunzTarPerm extractEntry README.md
+1021 silly gunzTarPerm extractEntry .npmignore
+1022 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+1023 silly gunzTarPerm extractEntry README.md
+1024 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1025 silly gunzTarPerm extractEntry .npmignore
+1026 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+1027 silly gunzTarPerm extractEntry README.md
+1028 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+1029 silly gunzTarPerm extractEntry README.md
+1030 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+1031 silly gunzTarPerm extractEntry include_dirs.js
+1032 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+1033 silly gunzTarPerm extractEntry .npmignore
+1034 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+1035 silly gunzTarPerm extractEntry README.md
+1036 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1037 silly gunzTarPerm extractEntry README.md
+1038 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1039 silly gunzTarPerm extractEntry LICENSE
+1040 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1041 silly gunzTarPerm extractEntry .travis.yml
+1042 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1043 silly gunzTarPerm extractEntry README.markdown
+1044 silly gunzTarPerm modified mode [ 'README.markdown', 420, 438 ]
+1045 silly gunzTarPerm extractEntry index.js
+1046 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1047 silly gunzTarPerm extractEntry LICENSE.md
+1048 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+1049 silly gunzTarPerm extractEntry forever.js
+1050 silly gunzTarPerm modified mode [ 'forever.js', 420, 438 ]
+1051 silly gunzTarPerm extractEntry groupBy.js
+1052 silly gunzTarPerm modified mode [ 'groupBy.js', 420, 438 ]
+1053 silly gunzTarPerm extractEntry appveyor.yml
+1054 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+1055 silly gunzTarPerm extractEntry binding.gyp
+1056 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1057 silly gunzTarPerm extractEntry which.js
+1058 silly gunzTarPerm modified mode [ 'which.js', 420, 438 ]
+1059 silly gunzTarPerm extractEntry bin/which
+1060 silly gunzTarPerm modified mode [ 'bin/which', 493, 511 ]
+1061 silly gunzTarPerm extractEntry index.js
+1062 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1063 silly gunzTarPerm extractEntry old.js
+1064 silly gunzTarPerm modified mode [ 'old.js', 420, 438 ]
+1065 silly gunzTarPerm extractEntry readme.md
+1066 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+1067 silly gunzTarPerm extractEntry inflight.js
+1068 silly gunzTarPerm modified mode [ 'inflight.js', 420, 438 ]
+1069 silly gunzTarPerm extractEntry minimatch.js
+1070 silly gunzTarPerm modified mode [ 'minimatch.js', 420, 438 ]
+1071 silly gunzTarPerm extractEntry jsdoc.conf.json
+1072 silly gunzTarPerm extractEntry lib/registry.js
+1073 silly gunzTarPerm extractEntry LICENSE
+1074 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+1075 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+1076 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+1077 silly gunzTarPerm extractEntry LICENSE.md
+1078 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+1079 silly gunzTarPerm extractEntry doc/new.md
+1080 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+1081 silly gunzTarPerm extractEntry .jshintrc
+1082 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+1083 silly gunzTarPerm extractEntry .travis.yml
+1084 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1085 silly gunzTarPerm extractEntry LICENSE
+1086 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+1087 silly gunzTarPerm extractEntry index.js
+1088 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+1089 silly gunzTarPerm extractEntry doc/asyncworker.md
+1090 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+1091 silly gunzTarPerm extractEntry .travis.yml
+1092 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1093 silly gunzTarPerm extractEntry docs/compile.js
+1094 silly gunzTarPerm modified mode [ 'docs/compile.js', 420, 438 ]
+1095 silly gunzTarPerm extractEntry example/map.js
+1096 silly gunzTarPerm modified mode [ 'example/map.js', 420, 438 ]
+1097 silly gunzTarPerm extractEntry test/map.js
+1098 silly gunzTarPerm modified mode [ 'test/map.js', 420, 438 ]
+1099 silly gunzTarPerm extractEntry test/mocha.opts
+1100 silly gunzTarPerm extractEntry groupByLimit.js
+1101 silly gunzTarPerm modified mode [ 'groupByLimit.js', 420, 438 ]
+1102 silly gunzTarPerm extractEntry eachOfSeries.js
+1103 silly gunzTarPerm modified mode [ 'eachOfSeries.js', 420, 438 ]
+1104 silly gunzTarPerm extractEntry index.js
+1105 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+1106 silly gunzTarPerm extractEntry findJavaHome.js
+1107 silly gunzTarPerm modified mode [ 'findJavaHome.js', 420, 438 ]
+1108 silly gunzTarPerm extractEntry testRunner.js
+1109 silly gunzTarPerm modified mode [ 'testRunner.js', 420, 438 ]
+1110 silly gunzTarPerm extractEntry History.md
+1111 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+1112 silly gunzTarPerm extractEntry appveyor.yml
+1113 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+1114 silly gunzTarPerm extractEntry test.js
+1115 silly gunzTarPerm modified mode [ 'test.js', 436, 438 ]
+1116 silly gunzTarPerm extractEntry .travis.yml
+1117 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+1118 silly gunzTarPerm extractEntry postInstall.js
+1119 silly gunzTarPerm modified mode [ 'postInstall.js', 436, 438 ]
+1120 silly gunzTarPerm extractEntry doc/callback.md
+1121 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+1122 silly gunzTarPerm extractEntry doc/converters.md
+1123 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+1124 silly gunzTarPerm extractEntry docs/gh-pages.sh
+1125 silly gunzTarPerm modified mode [ 'docs/gh-pages.sh', 493, 511 ]
+1126 silly gunzTarPerm extractEntry filterSeries.js
+1127 silly gunzTarPerm modified mode [ 'filterSeries.js', 420, 438 ]
+1128 silly gunzTarPerm extractEntry test/src/index.js
+1129 silly gunzTarPerm extractEntry lib/struct.js
+1130 silly gunzTarPerm modified mode [ 'lib/struct.js', 420, 438 ]
+1131 silly gunzTarPerm extractEntry testHelpers.js
+1132 silly gunzTarPerm modified mode [ 'testHelpers.js', 436, 438 ]
+1133 silly gunzTarPerm extractEntry commons-lang.jarjar.rules
+1134 silly gunzTarPerm modified mode [ 'commons-lang.jarjar.rules', 436, 438 ]
+1135 silly gunzTarPerm extractEntry doc/errors.md
+1136 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+1137 silly gunzTarPerm extractEntry doc/json.md
+1138 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+1139 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+1140 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-114x114.png', 420, 438 ]
+1141 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+1142 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon-72x72.png', 420, 438 ]
+1143 silly gunzTarPerm extractEntry unmemoize.js
+1144 silly gunzTarPerm modified mode [ 'unmemoize.js', 420, 438 ]
+1145 silly gunzTarPerm extractEntry log.js
+1146 silly gunzTarPerm modified mode [ 'log.js', 420, 438 ]
+1147 silly gunzTarPerm extractEntry commons-lang3-node-java.jar
+1148 silly gunzTarPerm modified mode [ 'commons-lang3-node-java.jar', 436, 438 ]
+1149 silly gunzTarPerm extractEntry doc/maybe_types.md
+1150 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+1151 silly gunzTarPerm extractEntry doc/methods.md
+1152 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+1153 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540\node_modules is being purged
+1154 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540\node_modules
+1155 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+1156 silly gunzTarPerm modified mode [ 'docs/images/apple-touch-icon.png', 420, 438 ]
+1157 silly gunzTarPerm extractEntry docs/images/favicon.ico
+1158 silly gunzTarPerm modified mode [ 'docs/images/favicon.ico', 420, 438 ]
+1159 silly gunzTarPerm extractEntry map.js
+1160 silly gunzTarPerm modified mode [ 'map.js', 420, 438 ]
+1161 silly gunzTarPerm extractEntry mapLimit.js
+1162 silly gunzTarPerm modified mode [ 'mapLimit.js', 420, 438 ]
+1163 silly gunzTarPerm extractEntry doc/buffers.md
+1164 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+1165 silly gunzTarPerm extractEntry doc/node_misc.md
+1166 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+1167 silly gunzTarPerm extractEntry docs/images/ref.pxm
+1168 silly gunzTarPerm modified mode [ 'docs/images/ref.pxm', 420, 438 ]
+1169 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9\node_modules is being purged
+1170 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9\node_modules
+1171 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c\node_modules is being purged
+1172 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c\node_modules
+1173 silly gunzTarPerm extractEntry docs/index.jade
+1174 silly gunzTarPerm modified mode [ 'docs/index.jade', 420, 438 ]
+1175 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2\node_modules is being purged
+1176 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2\node_modules
+1177 silly gunzTarPerm extractEntry mapSeries.js
+1178 silly gunzTarPerm modified mode [ 'mapSeries.js', 420, 438 ]
+1179 silly gunzTarPerm extractEntry filterLimit.js
+1180 silly gunzTarPerm modified mode [ 'filterLimit.js', 420, 438 ]
+1181 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90\node_modules is being purged
+1182 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90\node_modules
+1183 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02\node_modules is being purged
+1184 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02\node_modules
+1185 silly gunzTarPerm extractEntry doc/object_wrappers.md
+1186 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+1187 silly gunzTarPerm extractEntry doc/persistent.md
+1188 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+1189 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676\node_modules is being purged
+1190 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676\node_modules
+1191 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+1192 silly gunzTarPerm modified mode [ 'docs/scripts/jquery-1.7.2.min.js', 420, 438 ]
+1193 silly gunzTarPerm extractEntry docs/scripts/main.js
+1194 silly gunzTarPerm modified mode [ 'docs/scripts/main.js', 420, 438 ]
+1195 silly gunzTarPerm extractEntry mapValues.js
+1196 silly gunzTarPerm modified mode [ 'mapValues.js', 420, 438 ]
+1197 silly gunzTarPerm extractEntry filter.js
+1198 silly gunzTarPerm modified mode [ 'filter.js', 420, 438 ]
+1199 silly gunzTarPerm extractEntry compile-java-code.cmd
+1200 silly gunzTarPerm modified mode [ 'compile-java-code.cmd', 420, 438 ]
+1201 silly gunzTarPerm extractEntry doc/scopes.md
+1202 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+1203 silly gunzTarPerm extractEntry doc/script.md
+1204 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+1205 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+1206 silly gunzTarPerm modified mode [ 'docs/stylesheets/base.css', 420, 438 ]
+1207 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+1208 silly gunzTarPerm modified mode [ 'docs/stylesheets/layout.css', 420, 438 ]
+1209 silly gunzTarPerm extractEntry compile-java-code.sh
+1210 silly gunzTarPerm modified mode [ 'compile-java-code.sh', 493, 511 ]
+1211 silly gunzTarPerm extractEntry compile-java8-code.cmd
+1212 silly gunzTarPerm modified mode [ 'compile-java8-code.cmd', 420, 438 ]
+1213 silly gunzTarPerm extractEntry mapValuesLimit.js
+1214 silly gunzTarPerm modified mode [ 'mapValuesLimit.js', 420, 438 ]
+1215 silly gunzTarPerm extractEntry everySeries.js
+1216 silly gunzTarPerm modified mode [ 'everySeries.js', 420, 438 ]
+1217 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770\node_modules is being purged
+1218 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770\node_modules
+1219 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a\node_modules is being purged
+1220 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a\node_modules
+1221 silly gunzTarPerm extractEntry doc/string_bytes.md
+1222 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+1223 silly gunzTarPerm extractEntry doc/v8_internals.md
+1224 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+1225 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32\node_modules is being purged
+1226 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32\node_modules
+1227 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+1228 silly gunzTarPerm modified mode [ 'docs/stylesheets/skeleton.css', 420, 438 ]
+1229 silly gunzTarPerm extractEntry lib/ref.js
+1230 silly gunzTarPerm modified mode [ 'lib/ref.js', 420, 438 ]
+1231 silly gunzTarPerm extractEntry src/binding.cc
+1232 silly gunzTarPerm modified mode [ 'src/binding.cc', 420, 438 ]
+1233 silly gunzTarPerm extractEntry CHANGELOG.md
+1234 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1235 silly gunzTarPerm extractEntry test/address.js
+1236 silly gunzTarPerm modified mode [ 'test/address.js', 420, 438 ]
+1237 silly gunzTarPerm extractEntry test/coerce.js
+1238 silly gunzTarPerm modified mode [ 'test/coerce.js', 420, 438 ]
+1239 silly gunzTarPerm extractEntry test/int64.js
+1240 silly gunzTarPerm modified mode [ 'test/int64.js', 420, 438 ]
+1241 silly gunzTarPerm extractEntry test/iojs3issue.js
+1242 silly gunzTarPerm modified mode [ 'test/iojs3issue.js', 420, 438 ]
+1243 silly gunzTarPerm extractEntry test/isNull.js
+1244 silly gunzTarPerm modified mode [ 'test/isNull.js', 420, 438 ]
+1245 silly gunzTarPerm extractEntry test/char.js
+1246 silly gunzTarPerm modified mode [ 'test/char.js', 420, 438 ]
+1247 silly gunzTarPerm extractEntry test/pointer.js
+1248 silly gunzTarPerm modified mode [ 'test/pointer.js', 420, 438 ]
+1249 silly gunzTarPerm extractEntry test/ref-deref.js
+1250 silly gunzTarPerm modified mode [ 'test/ref-deref.js', 420, 438 ]
+1251 silly gunzTarPerm extractEntry test/reinterpret.js
+1252 silly gunzTarPerm modified mode [ 'test/reinterpret.js', 420, 438 ]
+1253 silly gunzTarPerm extractEntry test/reinterpretUntilZeros.js
+1254 silly gunzTarPerm modified mode [ 'test/reinterpretUntilZeros.js', 420, 438 ]
+1255 silly gunzTarPerm extractEntry test/string.js
+1256 silly gunzTarPerm modified mode [ 'test/string.js', 420, 438 ]
+1257 silly gunzTarPerm extractEntry test/bool.js
+1258 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+1259 silly gunzTarPerm extractEntry test/types.js
+1260 silly gunzTarPerm modified mode [ 'test/types.js', 420, 438 ]
+1261 silly gunzTarPerm extractEntry test/alloc.js
+1262 silly gunzTarPerm modified mode [ 'test/alloc.js', 420, 438 ]
+1263 silly gunzTarPerm extractEntry test/object.js
+1264 silly gunzTarPerm modified mode [ 'test/object.js', 420, 438 ]
+1265 silly gunzTarPerm extractEntry test/utf16le.bin
+1266 silly gunzTarPerm modified mode [ 'test/utf16le.bin', 420, 438 ]
+1267 silly gunzTarPerm extractEntry compile-java8-code.sh
+1268 silly gunzTarPerm modified mode [ 'compile-java8-code.sh', 509, 511 ]
+1269 silly gunzTarPerm extractEntry docker/Dockerfile
+1270 silly gunzTarPerm modified mode [ 'docker/Dockerfile', 420, 438 ]
+1271 silly gunzTarPerm extractEntry mapValuesSeries.js
+1272 silly gunzTarPerm modified mode [ 'mapValuesSeries.js', 420, 438 ]
+1273 silly gunzTarPerm extractEntry everyLimit.js
+1274 silly gunzTarPerm modified mode [ 'everyLimit.js', 420, 438 ]
+1275 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c\node_modules is being purged
+1276 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c\node_modules
+1277 silly gunzTarPerm extractEntry doc/v8_misc.md
+1278 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+1279 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108\node_modules is being purged
+1280 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108\node_modules
+1281 silly gunzTarPerm extractEntry docker/build.sh
+1282 silly gunzTarPerm modified mode [ 'docker/build.sh', 493, 511 ]
+1283 silly gunzTarPerm extractEntry examples/lucene/example.js
+1284 silly gunzTarPerm modified mode [ 'examples/lucene/example.js', 493, 511 ]
+1285 silly gunzTarPerm extractEntry examples/lucene/lucene-analyzers-common-6.0.0.jar
+1286 silly gunzTarPerm modified mode [ 'examples/lucene/lucene-analyzers-common-6.0.0.jar', 420, 438 ]
+1287 silly gunzTarPerm extractEntry memoize.js
+1288 silly gunzTarPerm modified mode [ 'memoize.js', 420, 438 ]
+1289 silly gunzTarPerm extractEntry every.js
+1290 silly gunzTarPerm modified mode [ 'every.js', 420, 438 ]
+1291 silly gunzTarPerm extractEntry nan.h
+1292 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1293 silly gunzTarPerm extractEntry nan_callbacks.h
+1294 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+1295 silly gunzTarPerm extractEntry nextTick.js
+1296 silly gunzTarPerm modified mode [ 'nextTick.js', 420, 438 ]
+1297 silly gunzTarPerm extractEntry ensureAsync.js
+1298 silly gunzTarPerm modified mode [ 'ensureAsync.js', 420, 438 ]
+1299 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+1300 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+1301 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+1302 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+1303 silly gunzTarPerm extractEntry nan_converters.h
+1304 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+1305 silly gunzTarPerm extractEntry eachSeries.js
+1306 silly gunzTarPerm modified mode [ 'eachSeries.js', 420, 438 ]
+1307 silly gunzTarPerm extractEntry eachOfLimit.js
+1308 silly gunzTarPerm modified mode [ 'eachOfLimit.js', 420, 438 ]
+1309 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+1310 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+1311 silly gunzTarPerm extractEntry parallel.js
+1312 silly gunzTarPerm modified mode [ 'parallel.js', 420, 438 ]
+1313 silly gunzTarPerm extractEntry eachOf.js
+1314 silly gunzTarPerm modified mode [ 'eachOf.js', 420, 438 ]
+1315 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1316 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+1317 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1318 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+1319 silly gunzTarPerm extractEntry nan_json.h
+1320 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+1321 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+1322 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+1323 silly gunzTarPerm extractEntry parallelLimit.js
+1324 silly gunzTarPerm modified mode [ 'parallelLimit.js', 420, 438 ]
+1325 silly gunzTarPerm extractEntry eachLimit.js
+1326 silly gunzTarPerm modified mode [ 'eachLimit.js', 420, 438 ]
+1327 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+1328 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+1329 silly gunzTarPerm extractEntry nan_new.h
+1330 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+1331 silly gunzTarPerm extractEntry priorityQueue.js
+1332 silly gunzTarPerm modified mode [ 'priorityQueue.js', 420, 438 ]
+1333 silly gunzTarPerm extractEntry each.js
+1334 silly gunzTarPerm modified mode [ 'each.js', 420, 438 ]
+1335 silly gunzTarPerm extractEntry nan_object_wrap.h
+1336 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+1337 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+1338 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+1339 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+1340 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+1341 silly gunzTarPerm extractEntry nan_private.h
+1342 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+1343 silly gunzTarPerm extractEntry queue.js
+1344 silly gunzTarPerm modified mode [ 'queue.js', 420, 438 ]
+1345 silly gunzTarPerm extractEntry during.js
+1346 silly gunzTarPerm modified mode [ 'during.js', 420, 438 ]
+1347 silly gunzTarPerm extractEntry nan_string_bytes.h
+1348 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+1349 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+1350 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+1351 silly gunzTarPerm extractEntry race.js
+1352 silly gunzTarPerm modified mode [ 'race.js', 420, 438 ]
+1353 silly gunzTarPerm extractEntry doWhilst.js
+1354 silly gunzTarPerm modified mode [ 'doWhilst.js', 420, 438 ]
+1355 silly gunzTarPerm extractEntry nan_weak.h
+1356 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+1357 silly gunzTarPerm extractEntry CHANGELOG.md
+1358 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1359 silly gunzTarPerm extractEntry reduce.js
+1360 silly gunzTarPerm modified mode [ 'reduce.js', 420, 438 ]
+1361 silly gunzTarPerm extractEntry doUntil.js
+1362 silly gunzTarPerm modified mode [ 'doUntil.js', 420, 438 ]
+1363 silly gunzTarPerm extractEntry tools/package.json
+1364 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+1365 silly gunzTarPerm extractEntry tools/README.md
+1366 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+1367 silly gunzTarPerm extractEntry reduceRight.js
+1368 silly gunzTarPerm modified mode [ 'reduceRight.js', 420, 438 ]
+1369 silly gunzTarPerm extractEntry doDuring.js
+1370 silly gunzTarPerm modified mode [ 'doDuring.js', 420, 438 ]
+1371 silly gunzTarPerm extractEntry examples/lucene/lucene-core-6.0.0.jar
+1372 silly gunzTarPerm modified mode [ 'examples/lucene/lucene-core-6.0.0.jar', 420, 438 ]
+1373 silly gunzTarPerm extractEntry tools/1to2.js
+1374 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+1375 silly gunzTarPerm extractEntry reflect.js
+1376 silly gunzTarPerm modified mode [ 'reflect.js', 420, 438 ]
+1377 silly gunzTarPerm extractEntry until.js
+1378 silly gunzTarPerm modified mode [ 'until.js', 420, 438 ]
+1379 silly gunzTarPerm extractEntry reflectAll.js
+1380 silly gunzTarPerm modified mode [ 'reflectAll.js', 420, 438 ]
+1381 silly gunzTarPerm extractEntry dir.js
+1382 silly gunzTarPerm modified mode [ 'dir.js', 420, 438 ]
+1383 silly gunzTarPerm extractEntry reject.js
+1384 silly gunzTarPerm modified mode [ 'reject.js', 420, 438 ]
+1385 silly gunzTarPerm extractEntry detectSeries.js
+1386 silly gunzTarPerm modified mode [ 'detectSeries.js', 420, 438 ]
+1387 silly gunzTarPerm extractEntry rejectLimit.js
+1388 silly gunzTarPerm modified mode [ 'rejectLimit.js', 420, 438 ]
+1389 silly gunzTarPerm extractEntry detectLimit.js
+1390 silly gunzTarPerm modified mode [ 'detectLimit.js', 420, 438 ]
+1391 silly gunzTarPerm extractEntry rejectSeries.js
+1392 silly gunzTarPerm modified mode [ 'rejectSeries.js', 420, 438 ]
+1393 silly gunzTarPerm extractEntry detect.js
+1394 silly gunzTarPerm modified mode [ 'detect.js', 420, 438 ]
+1395 silly gunzTarPerm extractEntry retry.js
+1396 silly gunzTarPerm modified mode [ 'retry.js', 420, 438 ]
+1397 silly gunzTarPerm extractEntry constant.js
+1398 silly gunzTarPerm modified mode [ 'constant.js', 420, 438 ]
+1399 silly gunzTarPerm extractEntry retryable.js
+1400 silly gunzTarPerm modified mode [ 'retryable.js', 420, 438 ]
+1401 silly gunzTarPerm extractEntry concatSeries.js
+1402 silly gunzTarPerm modified mode [ 'concatSeries.js', 420, 438 ]
+1403 silly gunzTarPerm extractEntry seq.js
+1404 silly gunzTarPerm modified mode [ 'seq.js', 420, 438 ]
+1405 silly gunzTarPerm extractEntry concatLimit.js
+1406 silly gunzTarPerm modified mode [ 'concatLimit.js', 420, 438 ]
+1407 silly gunzTarPerm extractEntry series.js
+1408 silly gunzTarPerm modified mode [ 'series.js', 420, 438 ]
+1409 silly gunzTarPerm extractEntry concat.js
+1410 silly gunzTarPerm modified mode [ 'concat.js', 420, 438 ]
+1411 silly gunzTarPerm extractEntry setImmediate.js
+1412 silly gunzTarPerm modified mode [ 'setImmediate.js', 420, 438 ]
+1413 silly gunzTarPerm extractEntry compose.js
+1414 silly gunzTarPerm modified mode [ 'compose.js', 420, 438 ]
+1415 silly gunzTarPerm extractEntry some.js
+1416 silly gunzTarPerm modified mode [ 'some.js', 420, 438 ]
+1417 silly gunzTarPerm extractEntry cargo.js
+1418 silly gunzTarPerm modified mode [ 'cargo.js', 420, 438 ]
+1419 silly gunzTarPerm extractEntry someLimit.js
+1420 silly gunzTarPerm modified mode [ 'someLimit.js', 420, 438 ]
+1421 silly gunzTarPerm extractEntry waterfall.js
+1422 silly gunzTarPerm modified mode [ 'waterfall.js', 420, 438 ]
+1423 silly gunzTarPerm extractEntry someSeries.js
+1424 silly gunzTarPerm modified mode [ 'someSeries.js', 420, 438 ]
+1425 silly gunzTarPerm extractEntry autoInject.js
+1426 silly gunzTarPerm modified mode [ 'autoInject.js', 420, 438 ]
+1427 silly gunzTarPerm extractEntry examples/lucene/lucene-queryparser-6.0.0.jar
+1428 silly gunzTarPerm modified mode [ 'examples/lucene/lucene-queryparser-6.0.0.jar', 420, 438 ]
+1429 silly gunzTarPerm extractEntry sortBy.js
+1430 silly gunzTarPerm modified mode [ 'sortBy.js', 420, 438 ]
+1431 silly gunzTarPerm extractEntry auto.js
+1432 silly gunzTarPerm modified mode [ 'auto.js', 420, 438 ]
+1433 silly gunzTarPerm extractEntry timeout.js
+1434 silly gunzTarPerm modified mode [ 'timeout.js', 420, 438 ]
+1435 silly gunzTarPerm extractEntry asyncify.js
+1436 silly gunzTarPerm modified mode [ 'asyncify.js', 420, 438 ]
+1437 silly gunzTarPerm extractEntry examples/mixJavaAndNode/runMyClass.js
+1438 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/runMyClass.js', 509, 511 ]
+1439 silly gunzTarPerm extractEntry examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.class
+1440 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.class',
+1440 silly gunzTarPerm   436,
+1440 silly gunzTarPerm   438 ]
+1441 silly gunzTarPerm extractEntry examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.java
+1442 silly gunzTarPerm modified mode [ 'examples/mixJavaAndNode/src/com/nearinfinity/nodeJava/MyClass.java',
+1442 silly gunzTarPerm   436,
+1442 silly gunzTarPerm   438 ]
+1443 silly gunzTarPerm extractEntry .travis.yml
+1444 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1445 silly gunzTarPerm extractEntry times.js
+1446 silly gunzTarPerm modified mode [ 'times.js', 420, 438 ]
+1447 silly gunzTarPerm extractEntry applyEachSeries.js
+1448 silly gunzTarPerm modified mode [ 'applyEachSeries.js', 420, 438 ]
+1449 silly gunzTarPerm extractEntry jarjar-1.4.jar
+1450 silly gunzTarPerm modified mode [ 'jarjar-1.4.jar', 416, 438 ]
+1451 silly gunzTarPerm extractEntry jarjar.rule
+1452 silly gunzTarPerm modified mode [ 'jarjar.rule', 436, 438 ]
+1453 silly gunzTarPerm extractEntry lib/nodeJavaBridge.js
+1454 silly gunzTarPerm modified mode [ 'lib/nodeJavaBridge.js', 420, 438 ]
+1455 silly gunzTarPerm extractEntry node-java.cbp
+1456 silly gunzTarPerm modified mode [ 'node-java.cbp', 436, 438 ]
+1457 silly gunzTarPerm extractEntry node-java.kdev4
+1458 silly gunzTarPerm modified mode [ 'node-java.kdev4', 384, 438 ]
+1459 silly gunzTarPerm extractEntry timesLimit.js
+1460 silly gunzTarPerm modified mode [ 'timesLimit.js', 420, 438 ]
+1461 silly gunzTarPerm extractEntry applyEach.js
+1462 silly gunzTarPerm modified mode [ 'applyEach.js', 420, 438 ]
+1463 silly gunzTarPerm extractEntry .kdev4/node-java.kdev4
+1464 silly gunzTarPerm modified mode [ '.kdev4/node-java.kdev4', 384, 438 ]
+1465 silly gunzTarPerm extractEntry binding.gyp
+1466 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1467 silly gunzTarPerm extractEntry projectFilesBackup1/.idea/libraries/sass_stdlib.xml
+1468 silly gunzTarPerm modified mode [ 'projectFilesBackup1/.idea/libraries/sass_stdlib.xml',
+1468 silly gunzTarPerm   436,
+1468 silly gunzTarPerm   438 ]
+1469 silly gunzTarPerm extractEntry src/javaScope.h
+1470 silly gunzTarPerm modified mode [ 'src/javaScope.h', 436, 438 ]
+1471 silly gunzTarPerm extractEntry src/.kdev_include_paths
+1472 silly gunzTarPerm modified mode [ 'src/.kdev_include_paths', 436, 438 ]
+1473 silly gunzTarPerm extractEntry src/java.h
+1474 silly gunzTarPerm modified mode [ 'src/java.h', 420, 438 ]
+1475 silly gunzTarPerm extractEntry src/javaObject.cpp
+1476 silly gunzTarPerm modified mode [ 'src/javaObject.cpp', 420, 438 ]
+1477 silly gunzTarPerm extractEntry src/javaObject.h
+1478 silly gunzTarPerm modified mode [ 'src/javaObject.h', 420, 438 ]
+1479 silly gunzTarPerm extractEntry src/javaScope.cpp
+1480 silly gunzTarPerm modified mode [ 'src/javaScope.cpp', 436, 438 ]
+1481 silly gunzTarPerm extractEntry src/java.cpp
+1482 silly gunzTarPerm modified mode [ 'src/java.cpp', 420, 438 ]
+1483 silly gunzTarPerm extractEntry src/methodCallBaton.cpp
+1484 silly gunzTarPerm modified mode [ 'src/methodCallBaton.cpp', 420, 438 ]
+1485 silly gunzTarPerm extractEntry src/methodCallBaton.h
+1486 silly gunzTarPerm modified mode [ 'src/methodCallBaton.h', 420, 438 ]
+1487 silly gunzTarPerm extractEntry src/nodeJavaBridge.cpp
+1488 silly gunzTarPerm modified mode [ 'src/nodeJavaBridge.cpp', 436, 438 ]
+1489 silly gunzTarPerm extractEntry src/node_NodeDynamicProxyClass.h
+1490 silly gunzTarPerm modified mode [ 'src/node_NodeDynamicProxyClass.h', 436, 438 ]
+1491 silly gunzTarPerm extractEntry src/utils.cpp
+1492 silly gunzTarPerm modified mode [ 'src/utils.cpp', 420, 438 ]
+1493 silly gunzTarPerm extractEntry src/utils.h
+1494 silly gunzTarPerm modified mode [ 'src/utils.h', 420, 438 ]
+1495 silly gunzTarPerm extractEntry src-java/node/CastingUtils.class
+1496 silly gunzTarPerm modified mode [ 'src-java/node/CastingUtils.class', 420, 438 ]
+1497 silly gunzTarPerm extractEntry src-java/node/CastingUtils.java
+1498 silly gunzTarPerm modified mode [ 'src-java/node/CastingUtils.java', 436, 438 ]
+1499 silly gunzTarPerm extractEntry src-java/node/NodeDynamicProxyClass.class
+1500 silly gunzTarPerm modified mode [ 'src-java/node/NodeDynamicProxyClass.class', 420, 438 ]
+1501 silly gunzTarPerm extractEntry src-java/node/NodeDynamicProxyClass.java
+1502 silly gunzTarPerm modified mode [ 'src-java/node/NodeDynamicProxyClass.java', 436, 438 ]
+1503 silly gunzTarPerm extractEntry src-java/node/NodeJsException.class
+1504 silly gunzTarPerm modified mode [ 'src-java/node/NodeJsException.class', 436, 438 ]
+1505 silly gunzTarPerm extractEntry src-java/node/NodeJsException.java
+1506 silly gunzTarPerm modified mode [ 'src-java/node/NodeJsException.java', 436, 438 ]
+1507 silly gunzTarPerm extractEntry src-java/node/VarArgs.class
+1508 silly gunzTarPerm modified mode [ 'src-java/node/VarArgs.class', 420, 438 ]
+1509 silly gunzTarPerm extractEntry src-java/node/VarArgs.java
+1510 silly gunzTarPerm modified mode [ 'src-java/node/VarArgs.java', 436, 438 ]
+1511 silly gunzTarPerm extractEntry test/varargs-test.js
+1512 silly gunzTarPerm modified mode [ 'test/varargs-test.js', 436, 438 ]
+1513 silly gunzTarPerm extractEntry test/importClass-test.js
+1514 silly gunzTarPerm modified mode [ 'test/importClass-test.js', 436, 438 ]
+1515 silly gunzTarPerm extractEntry test/instanceof-test.js
+1516 silly gunzTarPerm modified mode [ 'test/instanceof-test.js', 420, 438 ]
+1517 silly gunzTarPerm extractEntry test/java-ambiguousMethod-test.js
+1518 silly gunzTarPerm modified mode [ 'test/java-ambiguousMethod-test.js', 436, 438 ]
+1519 silly gunzTarPerm extractEntry test/dynamicProxy-test.js
+1520 silly gunzTarPerm modified mode [ 'test/dynamicProxy-test.js', 420, 438 ]
+1521 silly gunzTarPerm extractEntry test/java-newInstance-test.js
+1522 silly gunzTarPerm modified mode [ 'test/java-newInstance-test.js', 436, 438 ]
+1523 silly gunzTarPerm extractEntry test/java-staticField-test.js
+1524 silly gunzTarPerm modified mode [ 'test/java-staticField-test.js', 436, 438 ]
+1525 silly gunzTarPerm extractEntry test/javaObject-test.js
+1526 silly gunzTarPerm modified mode [ 'test/javaObject-test.js', 420, 438 ]
+1527 silly gunzTarPerm extractEntry test/promises-test.js
+1528 silly gunzTarPerm modified mode [ 'test/promises-test.js', 436, 438 ]
+1529 silly gunzTarPerm extractEntry test/simple-test.js
+1530 silly gunzTarPerm modified mode [ 'test/simple-test.js', 420, 438 ]
+1531 silly gunzTarPerm extractEntry test/awt-test.js
+1532 silly gunzTarPerm modified mode [ 'test/awt-test.js', 436, 438 ]
+1533 silly gunzTarPerm extractEntry test/utils-types-test.js
+1534 silly gunzTarPerm modified mode [ 'test/utils-types-test.js', 420, 438 ]
+1535 silly gunzTarPerm extractEntry test/java-callStaticMethod-test.js
+1536 silly gunzTarPerm modified mode [ 'test/java-callStaticMethod-test.js', 420, 438 ]
+1537 silly gunzTarPerm extractEntry test/Test$SuperClass.class
+1538 silly gunzTarPerm modified mode [ 'test/Test$SuperClass.class', 420, 438 ]
+1539 silly gunzTarPerm extractEntry test/Test.class
+1540 silly gunzTarPerm modified mode [ 'test/Test.class', 420, 438 ]
+1541 silly gunzTarPerm extractEntry test/Test.java
+1542 silly gunzTarPerm modified mode [ 'test/Test.java', 420, 438 ]
+1543 silly gunzTarPerm extractEntry timesSeries.js
+1544 silly gunzTarPerm modified mode [ 'timesSeries.js', 420, 438 ]
+1545 silly gunzTarPerm extractEntry apply.js
+1546 silly gunzTarPerm modified mode [ 'apply.js', 420, 438 ]
+1547 silly gunzTarPerm extractEntry test/ListenerInterface.java
+1548 silly gunzTarPerm modified mode [ 'test/ListenerInterface.java', 420, 438 ]
+1549 silly gunzTarPerm extractEntry test/TestExceptions.java
+1550 silly gunzTarPerm modified mode [ 'test/TestExceptions.java', 436, 438 ]
+1551 silly gunzTarPerm extractEntry test/ListenerInterface.class
+1552 silly gunzTarPerm modified mode [ 'test/ListenerInterface.class', 420, 438 ]
+1553 silly gunzTarPerm extractEntry test/commons-lang3-3.1.jar
+1554 silly gunzTarPerm modified mode [ 'test/commons-lang3-3.1.jar', 436, 438 ]
+1555 silly gunzTarPerm extractEntry whilst.js
+1556 silly gunzTarPerm modified mode [ 'whilst.js', 420, 438 ]
+1557 silly gunzTarPerm extractEntry transform.js
+1558 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+1559 silly gunzTarPerm extractEntry tryEach.js
+1560 silly gunzTarPerm modified mode [ 'tryEach.js', 420, 438 ]
+1561 silly gunzTarPerm extractEntry groupBySeries.js
+1562 silly gunzTarPerm modified mode [ 'groupBySeries.js', 420, 438 ]
+1563 silly gunzTarPerm extractEntry test/ListenerTester.class
+1564 silly gunzTarPerm modified mode [ 'test/ListenerTester.class', 420, 438 ]
+1565 silly gunzTarPerm extractEntry test/ListenerTester.java
+1566 silly gunzTarPerm modified mode [ 'test/ListenerTester.java', 420, 438 ]
+1567 silly gunzTarPerm extractEntry test/RunInterface$1.class
+1568 silly gunzTarPerm modified mode [ 'test/RunInterface$1.class', 420, 438 ]
+1569 silly gunzTarPerm extractEntry test/RunInterface$Interface0Arg.class
+1570 silly gunzTarPerm modified mode [ 'test/RunInterface$Interface0Arg.class', 420, 438 ]
+1571 silly gunzTarPerm extractEntry test/RunInterface$Interface1Arg.class
+1572 silly gunzTarPerm modified mode [ 'test/RunInterface$Interface1Arg.class', 420, 438 ]
+1573 silly gunzTarPerm extractEntry test/RunInterface$InterfaceWithReturn.class
+1574 silly gunzTarPerm modified mode [ 'test/RunInterface$InterfaceWithReturn.class', 420, 438 ]
+1575 silly gunzTarPerm extractEntry index.js
+1576 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1577 silly gunzTarPerm extractEntry internal/DoublyLinkedList.js
+1578 silly gunzTarPerm modified mode [ 'internal/DoublyLinkedList.js', 420, 438 ]
+1579 silly gunzTarPerm extractEntry test/RunInterface.class
+1580 silly gunzTarPerm modified mode [ 'test/RunInterface.class', 420, 438 ]
+1581 silly gunzTarPerm extractEntry test/RunInterface.java
+1582 silly gunzTarPerm modified mode [ 'test/RunInterface.java', 436, 438 ]
+1583 silly gunzTarPerm extractEntry test/nodejs.png
+1584 silly gunzTarPerm modified mode [ 'test/nodejs.png', 436, 438 ]
+1585 silly gunzTarPerm extractEntry test/Test$Enum.class
+1586 silly gunzTarPerm modified mode [ 'test/Test$Enum.class', 420, 438 ]
+1587 silly gunzTarPerm extractEntry internal/filter.js
+1588 silly gunzTarPerm modified mode [ 'internal/filter.js', 420, 438 ]
+1589 silly gunzTarPerm extractEntry internal/findGetResult.js
+1590 silly gunzTarPerm modified mode [ 'internal/findGetResult.js', 420, 438 ]
+1591 silly gunzTarPerm extractEntry test/Test$StaticEnum.class
+1592 silly gunzTarPerm modified mode [ 'test/Test$StaticEnum.class', 420, 438 ]
+1593 silly gunzTarPerm extractEntry test/Test$SubClass.class
+1594 silly gunzTarPerm modified mode [ 'test/Test$SubClass.class', 420, 438 ]
+1595 silly gunzTarPerm extractEntry test/TestExceptions.class
+1596 silly gunzTarPerm modified mode [ 'test/TestExceptions.class', 420, 438 ]
+1597 silly gunzTarPerm extractEntry test8/testLambda.js
+1598 silly gunzTarPerm modified mode [ 'test8/testLambda.js', 436, 438 ]
+1599 silly gunzTarPerm extractEntry test8/TestLambda$IntegerMath.class
+1600 silly gunzTarPerm modified mode [ 'test8/TestLambda$IntegerMath.class', 436, 438 ]
+1601 silly gunzTarPerm extractEntry test8/TestLambda.class
+1602 silly gunzTarPerm modified mode [ 'test8/TestLambda.class', 436, 438 ]
+1603 silly gunzTarPerm extractEntry internal/getIterator.js
+1604 silly gunzTarPerm modified mode [ 'internal/getIterator.js', 420, 438 ]
+1605 silly gunzTarPerm extractEntry internal/eachOfLimit.js
+1606 silly gunzTarPerm modified mode [ 'internal/eachOfLimit.js', 420, 438 ]
+1607 silly gunzTarPerm extractEntry test8/TestLambda.java
+1608 silly gunzTarPerm modified mode [ 'test8/TestLambda.java', 436, 438 ]
+1609 silly gunzTarPerm extractEntry testAsyncOptions/testAllThreeSuffix.js
+1610 silly gunzTarPerm modified mode [ 'testAsyncOptions/testAllThreeSuffix.js', 420, 438 ]
+1611 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4\node_modules is being purged
+1612 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4\node_modules
+1613 silly gunzTarPerm extractEntry testAsyncOptions/testClientBeforeSyncThrows.js
+1614 silly gunzTarPerm modified mode [ 'testAsyncOptions/testClientBeforeSyncThrows.js', 420, 438 ]
+1615 silly gunzTarPerm extractEntry testAsyncOptions/testClientBeforeThrows.js
+1616 silly gunzTarPerm modified mode [ 'testAsyncOptions/testClientBeforeThrows.js', 436, 438 ]
+1617 silly gunzTarPerm extractEntry testAsyncOptions/testClientPBeforeError.js
+1618 silly gunzTarPerm modified mode [ 'testAsyncOptions/testClientPBeforeError.js', 436, 438 ]
+1619 silly gunzTarPerm extractEntry testAsyncOptions/testClientPBeforeThrows.js
+1620 silly gunzTarPerm modified mode [ 'testAsyncOptions/testClientPBeforeThrows.js', 436, 438 ]
+1621 silly gunzTarPerm extractEntry testAsyncOptions/testClientBeforeError.js
+1622 silly gunzTarPerm modified mode [ 'testAsyncOptions/testClientBeforeError.js', 436, 438 ]
+1623 silly gunzTarPerm extractEntry internal/iterator.js
+1624 silly gunzTarPerm modified mode [ 'internal/iterator.js', 420, 438 ]
+1625 silly gunzTarPerm extractEntry internal/map.js
+1626 silly gunzTarPerm modified mode [ 'internal/map.js', 420, 438 ]
+1627 silly gunzTarPerm extractEntry testAsyncOptions/testDefactoPlusPromise.js
+1628 silly gunzTarPerm modified mode [ 'testAsyncOptions/testDefactoPlusPromise.js', 420, 438 ]
+1629 silly gunzTarPerm extractEntry testAsyncOptions/testDefault.js
+1630 silly gunzTarPerm modified mode [ 'testAsyncOptions/testDefault.js', 420, 438 ]
+1631 silly gunzTarPerm extractEntry testAsyncOptions/testInvalidLaunch.js
+1632 silly gunzTarPerm modified mode [ 'testAsyncOptions/testInvalidLaunch.js', 436, 438 ]
+1633 silly gunzTarPerm extractEntry testAsyncOptions/testNoAsync.js
+1634 silly gunzTarPerm modified mode [ 'testAsyncOptions/testNoAsync.js', 420, 438 ]
+1635 silly gunzTarPerm extractEntry testAsyncOptions/testSyncDefaultPlusPromise.js
+1636 silly gunzTarPerm modified mode [ 'testAsyncOptions/testSyncDefaultPlusPromise.js', 420, 438 ]
+1637 silly gunzTarPerm extractEntry testAsyncOptions/testAsyncSuffixSyncDefault.js
+1638 silly gunzTarPerm modified mode [ 'testAsyncOptions/testAsyncSuffixSyncDefault.js', 420, 438 ]
+1639 silly gunzTarPerm extractEntry internal/notId.js
+1640 silly gunzTarPerm modified mode [ 'internal/notId.js', 420, 438 ]
+1641 silly gunzTarPerm extractEntry internal/once.js
+1642 silly gunzTarPerm modified mode [ 'internal/once.js', 420, 438 ]
+1643 silly gunzTarPerm extractEntry testAsyncOptions/testUnusableMethodName.js
+1644 silly gunzTarPerm modified mode [ 'testAsyncOptions/testUnusableMethodName.js', 436, 438 ]
+1645 silly gunzTarPerm extractEntry testAsyncOptions/testDefacto.js
+1646 silly gunzTarPerm modified mode [ 'testAsyncOptions/testDefacto.js', 420, 438 ]
+1647 silly gunzTarPerm extractEntry update-commons-lang.sh
+1648 silly gunzTarPerm modified mode [ 'update-commons-lang.sh', 509, 511 ]
+1649 silly gunzTarPerm extractEntry internal/onlyOnce.js
+1650 silly gunzTarPerm modified mode [ 'internal/onlyOnce.js', 420, 438 ]
+1651 silly gunzTarPerm extractEntry internal/doParallelLimit.js
+1652 silly gunzTarPerm modified mode [ 'internal/doParallelLimit.js', 420, 438 ]
+1653 silly gunzTarPerm extractEntry internal/parallel.js
+1654 silly gunzTarPerm modified mode [ 'internal/parallel.js', 420, 438 ]
+1655 silly gunzTarPerm extractEntry internal/doParallel.js
+1656 silly gunzTarPerm modified mode [ 'internal/doParallel.js', 420, 438 ]
+1657 silly gunzTarPerm extractEntry internal/queue.js
+1658 silly gunzTarPerm modified mode [ 'internal/queue.js', 420, 438 ]
+1659 silly gunzTarPerm extractEntry internal/doLimit.js
+1660 silly gunzTarPerm modified mode [ 'internal/doLimit.js', 420, 438 ]
+1661 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895\node_modules is being purged
+1662 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895\node_modules
+1663 silly gunzTarPerm extractEntry internal/reject.js
+1664 silly gunzTarPerm modified mode [ 'internal/reject.js', 420, 438 ]
+1665 silly gunzTarPerm extractEntry internal/createTester.js
+1666 silly gunzTarPerm modified mode [ 'internal/createTester.js', 420, 438 ]
+1667 silly gunzTarPerm extractEntry internal/setImmediate.js
+1668 silly gunzTarPerm modified mode [ 'internal/setImmediate.js', 420, 438 ]
+1669 silly gunzTarPerm extractEntry internal/consoleFunc.js
+1670 silly gunzTarPerm modified mode [ 'internal/consoleFunc.js', 420, 438 ]
+1671 silly gunzTarPerm extractEntry internal/slice.js
+1672 silly gunzTarPerm modified mode [ 'internal/slice.js', 420, 438 ]
+1673 silly gunzTarPerm extractEntry internal/breakLoop.js
+1674 silly gunzTarPerm modified mode [ 'internal/breakLoop.js', 420, 438 ]
+1675 silly gunzTarPerm extractEntry internal/withoutIndex.js
+1676 silly gunzTarPerm modified mode [ 'internal/withoutIndex.js', 420, 438 ]
+1677 silly gunzTarPerm extractEntry internal/applyEach.js
+1678 silly gunzTarPerm modified mode [ 'internal/applyEach.js', 420, 438 ]
+1679 silly gunzTarPerm extractEntry internal/wrapAsync.js
+1680 silly gunzTarPerm modified mode [ 'internal/wrapAsync.js', 420, 438 ]
+1681 silly gunzTarPerm extractEntry internal/initialParams.js
+1682 silly gunzTarPerm modified mode [ 'internal/initialParams.js', 420, 438 ]
+1683 silly gunzTarPerm extractEntry dist/async.js
+1684 silly gunzTarPerm modified mode [ 'dist/async.js', 420, 438 ]
+1685 silly gunzTarPerm extractEntry dist/async.min.js
+1686 silly gunzTarPerm modified mode [ 'dist/async.min.js', 420, 438 ]
+1687 silly gunzTarPerm extractEntry bower.json
+1688 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+1689 silly gunzTarPerm extractEntry CHANGELOG.md
+1690 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1691 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a\node_modules is being purged
+1692 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a\node_modules
+1693 silly gentlyRm C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb\node_modules is being purged
+1694 verbose gentlyRm don't care about contents; nuking C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb\node_modules
+1695 silly doParallel preinstall 16
+1696 silly preinstall balanced-match@1.0.0 C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90
+1697 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+1698 silly preinstall concat-map@0.0.1 C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770
+1699 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+1700 silly preinstall brace-expansion@1.1.8 C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540
+1701 info lifecycle brace-expansion@1.1.8~preinstall: brace-expansion@1.1.8
+1702 silly preinstall fs.realpath@1.0.0 C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02
+1703 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+1704 silly preinstall inflight@1.0.6 C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c
+1705 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+1706 silly preinstall minimatch@3.0.4 C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2
+1707 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+1708 silly preinstall path-is-absolute@1.0.1 C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9
+1709 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+1710 silly preinstall ref@1.3.5 C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4
+1711 info lifecycle ref@1.3.5~preinstall: ref@1.3.5
+1712 silly preinstall which@1.0.9 C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676
+1713 info lifecycle which@1.0.9~preinstall: which@1.0.9
+1714 silly preinstall winreg@1.2.4 C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c
+1715 info lifecycle winreg@1.2.4~preinstall: winreg@1.2.4
+1716 silly preinstall find-java-home@0.2.0 C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a
+1717 info lifecycle find-java-home@0.2.0~preinstall: find-java-home@0.2.0
+1718 silly preinstall glob@7.1.2 C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32
+1719 info lifecycle glob@7.1.2~preinstall: glob@7.1.2
+1720 silly preinstall async@2.5.0 C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a
+1721 info lifecycle async@2.5.0~preinstall: async@2.5.0
+1722 silly preinstall nan@2.7.0 C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895
+1723 info lifecycle nan@2.7.0~preinstall: nan@2.7.0
+1724 silly preinstall java@0.9.0 C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb
+1725 info lifecycle java@0.9.0~preinstall: java@0.9.0
+1726 silly preinstall ref-struct@1.1.0 C:\Users\RED\Documents\socketio\node_modules\.staging\ref-struct-151dd108
+1727 info lifecycle ref-struct@1.1.0~preinstall: ref-struct@1.1.0
+1728 silly lifecycle balanced-match@1.0.0~preinstall: no script for preinstall, continuing
+1729 silly lifecycle concat-map@0.0.1~preinstall: no script for preinstall, continuing
+1730 silly lifecycle brace-expansion@1.1.8~preinstall: no script for preinstall, continuing
+1731 silly lifecycle fs.realpath@1.0.0~preinstall: no script for preinstall, continuing
+1732 silly lifecycle inflight@1.0.6~preinstall: no script for preinstall, continuing
+1733 silly lifecycle minimatch@3.0.4~preinstall: no script for preinstall, continuing
+1734 silly lifecycle ref@1.3.5~preinstall: no script for preinstall, continuing
+1735 silly lifecycle path-is-absolute@1.0.1~preinstall: no script for preinstall, continuing
+1736 silly lifecycle which@1.0.9~preinstall: no script for preinstall, continuing
+1737 silly lifecycle winreg@1.2.4~preinstall: no script for preinstall, continuing
+1738 silly lifecycle find-java-home@0.2.0~preinstall: no script for preinstall, continuing
+1739 silly lifecycle async@2.5.0~preinstall: no script for preinstall, continuing
+1740 silly lifecycle glob@7.1.2~preinstall: no script for preinstall, continuing
+1741 silly lifecycle nan@2.7.0~preinstall: no script for preinstall, continuing
+1742 silly lifecycle java@0.9.0~preinstall: no script for preinstall, continuing
+1743 silly lifecycle ref-struct@1.1.0~preinstall: no script for preinstall, continuing
+1744 silly doReverseSerial remove 0
+1745 silly doSerial move 0
+1746 silly doSerial finalize 16
+1747 silly finalize C:\Users\RED\Documents\socketio\node_modules\balanced-match
+1748 silly finalize C:\Users\RED\Documents\socketio\node_modules\concat-map
+1749 silly finalize C:\Users\RED\Documents\socketio\node_modules\brace-expansion
+1750 silly finalize C:\Users\RED\Documents\socketio\node_modules\fs.realpath
+1751 silly finalize C:\Users\RED\Documents\socketio\node_modules\inflight
+1752 silly finalize C:\Users\RED\Documents\socketio\node_modules\minimatch
+1753 silly finalize C:\Users\RED\Documents\socketio\node_modules\path-is-absolute
+1754 silly finalize C:\Users\RED\Documents\socketio\node_modules\ref
+1755 silly finalize C:\Users\RED\Documents\socketio\node_modules\which
+1756 silly finalize C:\Users\RED\Documents\socketio\node_modules\winreg
+1757 silly finalize C:\Users\RED\Documents\socketio\node_modules\find-java-home
+1758 silly finalize C:\Users\RED\Documents\socketio\node_modules\glob
+1759 silly finalize C:\Users\RED\Documents\socketio\node_modules\java\node_modules\async
+1760 silly finalize C:\Users\RED\Documents\socketio\node_modules\java\node_modules\nan
+1761 silly finalize C:\Users\RED\Documents\socketio\node_modules\java
+1762 silly finalize C:\Users\RED\Documents\socketio\node_modules\ref-struct
+1763 silly doSerial build 16
+1764 silly build balanced-match@1.0.0
+1765 info linkStuff balanced-match@1.0.0
+1766 silly linkStuff balanced-match@1.0.0 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1767 verbose linkBins balanced-match@1.0.0
+1768 verbose linkMans balanced-match@1.0.0
+1769 silly build concat-map@0.0.1
+1770 info linkStuff concat-map@0.0.1
+1771 silly linkStuff concat-map@0.0.1 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1772 verbose linkBins concat-map@0.0.1
+1773 verbose linkMans concat-map@0.0.1
+1774 silly build brace-expansion@1.1.8
+1775 info linkStuff brace-expansion@1.1.8
+1776 silly linkStuff brace-expansion@1.1.8 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1777 verbose linkBins brace-expansion@1.1.8
+1778 verbose linkMans brace-expansion@1.1.8
+1779 silly build fs.realpath@1.0.0
+1780 info linkStuff fs.realpath@1.0.0
+1781 silly linkStuff fs.realpath@1.0.0 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1782 verbose linkBins fs.realpath@1.0.0
+1783 verbose linkMans fs.realpath@1.0.0
+1784 silly build inflight@1.0.6
+1785 info linkStuff inflight@1.0.6
+1786 silly linkStuff inflight@1.0.6 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1787 verbose linkBins inflight@1.0.6
+1788 verbose linkMans inflight@1.0.6
+1789 silly build minimatch@3.0.4
+1790 info linkStuff minimatch@3.0.4
+1791 silly linkStuff minimatch@3.0.4 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1792 verbose linkBins minimatch@3.0.4
+1793 verbose linkMans minimatch@3.0.4
+1794 silly build path-is-absolute@1.0.1
+1795 info linkStuff path-is-absolute@1.0.1
+1796 silly linkStuff path-is-absolute@1.0.1 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1797 verbose linkBins path-is-absolute@1.0.1
+1798 verbose linkMans path-is-absolute@1.0.1
+1799 silly build ref@1.3.5
+1800 info linkStuff ref@1.3.5
+1801 silly linkStuff ref@1.3.5 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1802 verbose linkBins ref@1.3.5
+1803 verbose linkMans ref@1.3.5
+1804 silly build which@1.0.9
+1805 info linkStuff which@1.0.9
+1806 silly linkStuff which@1.0.9 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1807 verbose linkBins which@1.0.9
+1808 verbose link bins [ { which: './bin/which' },
+1808 verbose link bins   'C:\\Users\\RED\\Documents\\socketio\\node_modules\\.bin',
+1808 verbose link bins   false ]
+1809 verbose linkMans which@1.0.9
+1810 silly build winreg@1.2.4
+1811 info linkStuff winreg@1.2.4
+1812 silly linkStuff winreg@1.2.4 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1813 verbose linkBins winreg@1.2.4
+1814 verbose linkMans winreg@1.2.4
+1815 silly build find-java-home@0.2.0
+1816 info linkStuff find-java-home@0.2.0
+1817 silly linkStuff find-java-home@0.2.0 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1818 verbose linkBins find-java-home@0.2.0
+1819 verbose linkMans find-java-home@0.2.0
+1820 silly build glob@7.1.2
+1821 info linkStuff glob@7.1.2
+1822 silly linkStuff glob@7.1.2 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1823 verbose linkBins glob@7.1.2
+1824 verbose linkMans glob@7.1.2
+1825 silly build async@2.5.0
+1826 info linkStuff async@2.5.0
+1827 silly linkStuff async@2.5.0 has C:\Users\RED\Documents\socketio\node_modules\java\node_modules as its parent node_modules
+1828 verbose linkBins async@2.5.0
+1829 verbose linkMans async@2.5.0
+1830 silly build nan@2.7.0
+1831 info linkStuff nan@2.7.0
+1832 silly linkStuff nan@2.7.0 has C:\Users\RED\Documents\socketio\node_modules\java\node_modules as its parent node_modules
+1833 verbose linkBins nan@2.7.0
+1834 verbose linkMans nan@2.7.0
+1835 silly build java@0.9.0
+1836 info linkStuff java@0.9.0
+1837 silly linkStuff java@0.9.0 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1838 verbose linkBins java@0.9.0
+1839 verbose linkMans java@0.9.0
+1840 silly build ref-struct@1.1.0
+1841 info linkStuff ref-struct@1.1.0
+1842 silly linkStuff ref-struct@1.1.0 has C:\Users\RED\Documents\socketio\node_modules as its parent node_modules
+1843 verbose linkBins ref-struct@1.1.0
+1844 verbose linkMans ref-struct@1.1.0
+1845 silly doSerial global-link 0
+1846 silly doParallel update-linked 0
+1847 silly doSerial install 16
+1848 silly install balanced-match@1.0.0 C:\Users\RED\Documents\socketio\node_modules\.staging\balanced-match-8a89fa90
+1849 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+1850 silly lifecycle balanced-match@1.0.0~install: no script for install, continuing
+1851 silly install concat-map@0.0.1 C:\Users\RED\Documents\socketio\node_modules\.staging\concat-map-079bc770
+1852 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+1853 silly lifecycle concat-map@0.0.1~install: no script for install, continuing
+1854 silly install brace-expansion@1.1.8 C:\Users\RED\Documents\socketio\node_modules\.staging\brace-expansion-45836540
+1855 info lifecycle brace-expansion@1.1.8~install: brace-expansion@1.1.8
+1856 silly lifecycle brace-expansion@1.1.8~install: no script for install, continuing
+1857 silly install fs.realpath@1.0.0 C:\Users\RED\Documents\socketio\node_modules\.staging\fs.realpath-ae9f5c02
+1858 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+1859 silly lifecycle fs.realpath@1.0.0~install: no script for install, continuing
+1860 silly install inflight@1.0.6 C:\Users\RED\Documents\socketio\node_modules\.staging\inflight-d31c5b5c
+1861 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+1862 silly lifecycle inflight@1.0.6~install: no script for install, continuing
+1863 silly install minimatch@3.0.4 C:\Users\RED\Documents\socketio\node_modules\.staging\minimatch-09e981b2
+1864 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+1865 silly lifecycle minimatch@3.0.4~install: no script for install, continuing
+1866 silly install path-is-absolute@1.0.1 C:\Users\RED\Documents\socketio\node_modules\.staging\path-is-absolute-1a1cd6a9
+1867 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+1868 silly lifecycle path-is-absolute@1.0.1~install: no script for install, continuing
+1869 silly install ref@1.3.5 C:\Users\RED\Documents\socketio\node_modules\.staging\ref-763a26b4
+1870 info lifecycle ref@1.3.5~install: ref@1.3.5
+1871 verbose lifecycle ref@1.3.5~install: unsafe-perm in lifecycle true
+1872 verbose lifecycle ref@1.3.5~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\RED\Documents\socketio\node_modules\ref\node_modules\.bin;C:\Users\RED\Documents\socketio\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python35\Lib\site-packages\PyQt5;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\RED\Anaconda3;C:\Users\RED\Anaconda3\Library\mingw-w64\bin;C:\Users\RED\Anaconda3\Library\usr\bin;C:\Users\RED\Anaconda3\Library\bin;C:\Users\RED\Anaconda3\Scripts;C:\Users\RED\AppData\Local\atom\bin;C:\Users\RED\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Microsoft VS Code\bin
+1873 verbose lifecycle ref@1.3.5~install: CWD: C:\Users\RED\Documents\socketio\node_modules\ref
+1874 silly lifecycle ref@1.3.5~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1875 silly lifecycle ref@1.3.5~install: Returned: code: 1  signal: null
+1876 info lifecycle ref@1.3.5~install: Failed to exec install script
+1877 silly install which@1.0.9 C:\Users\RED\Documents\socketio\node_modules\.staging\which-1c9a8676
+1878 info lifecycle which@1.0.9~install: which@1.0.9
+1879 silly lifecycle which@1.0.9~install: no script for install, continuing
+1880 silly install winreg@1.2.4 C:\Users\RED\Documents\socketio\node_modules\.staging\winreg-401eb72c
+1881 info lifecycle winreg@1.2.4~install: winreg@1.2.4
+1882 silly lifecycle winreg@1.2.4~install: no script for install, continuing
+1883 silly install find-java-home@0.2.0 C:\Users\RED\Documents\socketio\node_modules\.staging\find-java-home-61d37f5a
+1884 info lifecycle find-java-home@0.2.0~install: find-java-home@0.2.0
+1885 silly lifecycle find-java-home@0.2.0~install: no script for install, continuing
+1886 silly install glob@7.1.2 C:\Users\RED\Documents\socketio\node_modules\.staging\glob-8b1b0c32
+1887 info lifecycle glob@7.1.2~install: glob@7.1.2
+1888 silly lifecycle glob@7.1.2~install: no script for install, continuing
+1889 silly install async@2.5.0 C:\Users\RED\Documents\socketio\node_modules\.staging\async-043f449a
+1890 info lifecycle async@2.5.0~install: async@2.5.0
+1891 silly lifecycle async@2.5.0~install: no script for install, continuing
+1892 silly install nan@2.7.0 C:\Users\RED\Documents\socketio\node_modules\.staging\nan-14e19895
+1893 info lifecycle nan@2.7.0~install: nan@2.7.0
+1894 silly lifecycle nan@2.7.0~install: no script for install, continuing
+1895 silly install java@0.9.0 C:\Users\RED\Documents\socketio\node_modules\.staging\java-86f1efcb
+1896 info lifecycle java@0.9.0~install: java@0.9.0
+1897 verbose lifecycle java@0.9.0~install: unsafe-perm in lifecycle true
+1898 verbose lifecycle java@0.9.0~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\RED\Documents\socketio\node_modules\java\node_modules\.bin;C:\Users\RED\Documents\socketio\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Python35\Lib\site-packages\PyQt5;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MATLAB\R2017a\runtime\win64;C:\Program Files\MATLAB\R2017a\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\RED\Anaconda3;C:\Users\RED\Anaconda3\Library\mingw-w64\bin;C:\Users\RED\Anaconda3\Library\usr\bin;C:\Users\RED\Anaconda3\Library\bin;C:\Users\RED\Anaconda3\Scripts;C:\Users\RED\AppData\Local\atom\bin;C:\Users\RED\AppData\Roaming\npm;C:\Program Files\Heroku\bin;C:\Program Files\Docker Toolbox;C:\Program Files\Microsoft VS Code\bin
+1899 verbose lifecycle java@0.9.0~install: CWD: C:\Users\RED\Documents\socketio\node_modules\java
+1900 silly lifecycle java@0.9.0~install: Args: [ '/d /s /c', 'node-gyp rebuild' ]
+1901 silly lifecycle java@0.9.0~install: Returned: code: 1  signal: null
+1902 info lifecycle java@0.9.0~install: Failed to exec install script
+1903 verbose unlock done using C:\Users\RED\AppData\Roaming\npm-cache\_locks\staging-9286b2d0920f84e5.lock for C:\Users\RED\Documents\socketio\node_modules\.staging
+1904 silly rollbackFailedOptional Starting
+1905 silly rollbackFailedOptional Finishing
+1906 silly runTopLevelLifecycles Finishing
+1907 silly install printInstalled
+1908 warn socket-chat-example@0.0.1 No repository field.
+1909 verbose If you need help, you may report this error at:
+1909 verbose     <https://github.com/npm/npm/issues>
+1910 warn socket-chat-example@0.0.1 No license field.
+1911 verbose If you need help, you may report this error at:
+1911 verbose     <https://github.com/npm/npm/issues>
+1912 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 (node_modules\ref):
+1913 warn optional SKIPPING OPTIONAL DEPENDENCY: ref@1.3.5 install: `node-gyp rebuild`
+1913 warn optional SKIPPING OPTIONAL DEPENDENCY: Exit status 1
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY:
+1914 verbose optional Failed at the ref@1.3.5 install script 'node-gyp rebuild'.
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: Make sure you have the latest version of node.js and npm installed.
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: If you do, this is most likely a problem with the ref package,
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: not with npm itself.
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: Tell the author that this fails on your system:
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY:     node-gyp rebuild
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: You can get information on how to open an issue for this project with:
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm bugs ref
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: Or if that isn't available, you can get their info via:
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY:     npm owner ls ref
+1914 verbose optional SKIPPING OPTIONAL DEPENDENCY: There is likely additional logging output above.
+1915 verbose stack Error: java@0.9.0 install: `node-gyp rebuild`
+1915 verbose stack Exit status 1
+1915 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1915 verbose stack     at emitTwo (events.js:106:13)
+1915 verbose stack     at EventEmitter.emit (events.js:191:7)
+1915 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1915 verbose stack     at emitTwo (events.js:106:13)
+1915 verbose stack     at ChildProcess.emit (events.js:191:7)
+1915 verbose stack     at maybeClose (internal/child_process.js:920:16)
+1915 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+1916 verbose pkgid java@0.9.0
+1917 verbose cwd C:\Users\RED\Documents\socketio
+1918 error Windows_NT 10.0.10586
+1919 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "java"
+1920 error node v6.11.3
+1921 error npm  v3.10.10
+1922 error code ELIFECYCLE
+1923 error java@0.9.0 install: `node-gyp rebuild`
+1923 error Exit status 1
+1924 error Failed at the java@0.9.0 install script 'node-gyp rebuild'.
+1924 error Make sure you have the latest version of node.js and npm installed.
+1924 error If you do, this is most likely a problem with the java package,
+1924 error not with npm itself.
+1924 error Tell the author that this fails on your system:
+1924 error     node-gyp rebuild
+1924 error You can get information on how to open an issue for this project with:
+1924 error     npm bugs java
+1924 error Or if that isn't available, you can get their info via:
+1924 error     npm owner ls java
+1924 error There is likely additional logging output above.
+1925 verbose exit [ 1, true ]
