@@ -26,7 +26,7 @@ io.on('connection', function(socket){
 
 
 var SerialPort = require('serialport');
-var serPort = new SerialPort('COM2', function (err) {
+var serPort = new SerialPort('COM8', function (err) {
   if (err) {
     return console.log('Error: ', err.message);
   }
@@ -45,8 +45,52 @@ function arrayBufferToString(buffer){
 
 function onData(data) {
   console.log("on data "+data)
-  ks.sendCombination(['control', 'alt', 'z']);
+  if(data == "C"){
+      emit(data);
+  }else if (data == "c") {
+      emit(data);
+  }else if (data == "S") {
+      emit(data);
+  }else if (data == "s") {
+      emit(data);
+  }else if (data == "V") {
+      emit(data);
+  }else if (data == "v") {
+      emit(data);
+  }
 
-  var msg = arrayBufferToString(data);
-  io.emit('chat message', msg);
+  else if (data == "B") {
+      ks.sendKey(data);
+  }else if (data == "E") {
+      ks.sendKey(data);
+  }else if (data == "[") {
+      ks.sendKey(data);
+  }else if (data == "]") {
+      ks.sendKey(data);
+  }else if (data == "{") {
+      ks.sendKey(data);
+  }else if (data == "}") {
+      ks.sendKey(data);
+  }
+
+  else if (data == "Y") {
+      historyStepBack();
+  }else if (data == "H") {
+      historyStepForward();
+  }
+
+  // var msg = arrayBufferToString(data);
+  // io.emit('chat message', msg);
+}
+
+
+function emit(data) {
+    io.emit('chat message', arrayBufferToString(data));
+}
+function historyStepBack(){
+    ks.sendCombination(['control', 'alt', 'z']);
+}
+
+function historyStepForward(){
+    ks.sendCombination(['control', 'shift', 'z']);
 }

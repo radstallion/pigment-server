@@ -4,8 +4,6 @@
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.15.2",
-    "kbm-robot": "0.0.4",
-    "node_keyboard": "0.0.4",
     "serialport": "^6.0.4",
     "socket.io": "^2.0.4"
   },
